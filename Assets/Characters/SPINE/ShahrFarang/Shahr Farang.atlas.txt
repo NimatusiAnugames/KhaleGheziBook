@@ -1,0 +1,347 @@
+
+Shahr Farang.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Amoo/New/Abroo
+  rotate: false
+  xy: 936, 26
+  size: 86, 50
+  orig: 86, 50
+  offset: 0, 0
+  index: -1
+Amoo/New/Cheshm
+  rotate: false
+  xy: 944, 818
+  size: 73, 104
+  orig: 73, 104
+  offset: 0, 0
+  index: -1
+Amoo/New/Dast 1
+  rotate: false
+  xy: 944, 713
+  size: 73, 103
+  orig: 73, 103
+  offset: 0, 0
+  index: -1
+Amoo/New/Dast 2
+  rotate: false
+  xy: 944, 924
+  size: 77, 98
+  orig: 77, 98
+  offset: 0, 0
+  index: -1
+Amoo/New/Mardomak
+  rotate: true
+  xy: 219, 20
+  size: 18, 20
+  orig: 18, 20
+  offset: 0, 0
+  index: -1
+Dariche
+  rotate: false
+  xy: 2, 725
+  size: 940, 297
+  orig: 940, 297
+  offset: 0, 0
+  index: -1
+Kolahak
+  rotate: true
+  xy: 2, 40
+  size: 683, 932
+  orig: 683, 932
+  offset: 0, 0
+  index: -1
+eye-close
+  rotate: false
+  xy: 241, 27
+  size: 26, 11
+  orig: 26, 11
+  offset: 0, 0
+  index: -1
+eye-open
+  rotate: false
+  xy: 197, 18
+  size: 20, 20
+  orig: 20, 20
+  offset: 0, 0
+  index: -1
+pich
+  rotate: true
+  xy: 165, 13
+  size: 25, 30
+  orig: 25, 30
+  offset: 0, 0
+  index: -1
+rekab-roo
+  rotate: false
+  xy: 2, 9
+  size: 53, 29
+  orig: 53, 29
+  offset: 0, 0
+  index: -1
+rekab-zir
+  rotate: true
+  xy: 57, 12
+  size: 26, 106
+  orig: 26, 106
+  offset: 0, 0
+  index: -1
+sar2charkhe
+  rotate: true
+  xy: 936, 567
+  size: 144, 86
+  orig: 144, 86
+  offset: 0, 0
+  index: -1
+tanab
+  rotate: true
+  xy: 936, 78
+  size: 487, 83
+  orig: 487, 83
+  offset: 0, 0
+  index: -1
+
+Shahr Farang2.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Amoo/Bazoo
+  rotate: false
+  xy: 491, 2
+  size: 61, 117
+  orig: 61, 117
+  offset: 0, 0
+  index: -1
+Amoo/Kafsh
+  rotate: true
+  xy: 611, 70
+  size: 49, 40
+  orig: 49, 40
+  offset: 0, 0
+  index: -1
+Amoo/New/Bini
+  rotate: true
+  xy: 349, 23
+  size: 96, 140
+  orig: 96, 140
+  offset: 0, 0
+  index: -1
+Amoo/New/Cheshm - Close
+  rotate: false
+  xy: 849, 441
+  size: 72, 104
+  orig: 72, 104
+  offset: 0, 0
+  index: -1
+Amoo/New/Gardan
+  rotate: false
+  xy: 554, 65
+  size: 55, 54
+  orig: 55, 54
+  offset: 0, 0
+  index: -1
+Amoo/New/Kolah
+  rotate: false
+  xy: 198, 15
+  size: 149, 104
+  orig: 149, 104
+  offset: 0, 0
+  index: -1
+Aviz1
+  rotate: true
+  xy: 849, 547
+  size: 475, 168
+  orig: 475, 168
+  offset: 0, 0
+  index: -1
+Aviz2
+  rotate: true
+  xy: 656, 16
+  size: 120, 344
+  orig: 120, 344
+  offset: 0, 0
+  index: -1
+Badane
+  rotate: false
+  xy: 2, 416
+  size: 845, 606
+  orig: 845, 606
+  offset: 0, 0
+  index: -1
+Zangule
+  rotate: true
+  xy: 2, 47
+  size: 72, 194
+  orig: 72, 194
+  offset: 0, 0
+  index: -1
+daste-zir
+  rotate: true
+  xy: 2, 7
+  size: 38, 164
+  orig: 38, 164
+  offset: 0, 0
+  index: -1
+lastic
+  rotate: false
+  xy: 656, 138
+  size: 274, 276
+  orig: 274, 276
+  offset: 0, 0
+  index: -1
+mikh
+  rotate: true
+  xy: 554, 5
+  size: 58, 45
+  orig: 58, 45
+  offset: 0, 0
+  index: -1
+shasi
+  rotate: false
+  xy: 2, 121
+  size: 652, 293
+  orig: 652, 293
+  offset: 0, 0
+  index: -1
+toghi
+  rotate: true
+  xy: 932, 260
+  size: 285, 90
+  orig: 285, 90
+  offset: 0, 0
+  index: -1
+zanjir-cheragh
+  rotate: false
+  xy: 932, 151
+  size: 58, 107
+  orig: 58, 107
+  offset: 0, 0
+  index: -1
+
+Shahr Farang3.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Amoo/New/Badan
+  rotate: true
+  xy: 805, 789
+  size: 233, 208
+  orig: 233, 208
+  offset: 0, 0
+  index: -1
+Amoo/New/Bazoo
+  rotate: true
+  xy: 425, 207
+  size: 122, 234
+  orig: 122, 234
+  offset: 0, 0
+  index: -1
+Amoo/New/Pa
+  rotate: false
+  xy: 284, 222
+  size: 139, 269
+  orig: 139, 269
+  offset: 0, 0
+  index: -1
+Amoo/New/Sar
+  rotate: true
+  xy: 584, 548
+  size: 203, 236
+  orig: 203, 236
+  offset: 0, 0
+  index: -1
+Amoo/New/Sar_A
+  rotate: true
+  xy: 582, 343
+  size: 203, 236
+  orig: 203, 236
+  offset: 0, 0
+  index: -1
+Amoo/New/Sar_O
+  rotate: true
+  xy: 284, 2
+  size: 203, 236
+  orig: 203, 236
+  offset: 0, 0
+  index: -1
+Dood
+  rotate: false
+  xy: 661, 216
+  size: 164, 125
+  orig: 164, 125
+  offset: 0, 0
+  index: -1
+Doodkesh1
+  rotate: false
+  xy: 2, 466
+  size: 208, 556
+  orig: 208, 556
+  offset: 0, 0
+  index: -1
+Doodkesh2
+  rotate: false
+  xy: 212, 493
+  size: 211, 529
+  orig: 211, 529
+  offset: 0, 0
+  index: -1
+Fanus
+  rotate: false
+  xy: 425, 331
+  size: 155, 223
+  orig: 155, 223
+  offset: 0, 0
+  index: -1
+Paye
+  rotate: true
+  xy: 2, 70
+  size: 394, 153
+  orig: 394, 153
+  offset: 0, 0
+  index: -1
+band-cheragh
+  rotate: false
+  xy: 522, 19
+  size: 155, 186
+  orig: 155, 186
+  offset: 0, 0
+  index: -1
+cheragh
+  rotate: false
+  xy: 157, 106
+  size: 125, 358
+  orig: 125, 358
+  offset: 0, 0
+  index: -1
+daste
+  rotate: false
+  xy: 425, 556
+  size: 157, 466
+  orig: 157, 466
+  offset: 0, 0
+  index: -1
+dodkesh
+  rotate: false
+  xy: 584, 753
+  size: 219, 269
+  orig: 219, 269
+  offset: 0, 0
+  index: -1
+noor
+  rotate: false
+  xy: 822, 577
+  size: 152, 210
+  orig: 152, 210
+  offset: 0, 0
+  index: -1
+zin
+  rotate: true
+  xy: 679, 63
+  size: 151, 148
+  orig: 151, 148
+  offset: 0, 0
+  index: -1

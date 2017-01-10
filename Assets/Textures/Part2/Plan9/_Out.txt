@@ -1,0 +1,5 @@
+document_size,1280,800,plan 9_00.PSD
+LayerSet,Foreground,0
+Layer_2_copy,1013,486,1201,723,0
+Layer_3_copy_12,406,-156,1092,739,0
+Layer_244,83,-91,1218,734,0

@@ -1,0 +1,188 @@
+
+skeleton.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Abroo
+  rotate: true
+  xy: 2, 2
+  size: 51, 45
+  orig: 51, 45
+  offset: 0, 0
+  index: -1
+Badan
+  rotate: false
+  xy: 338, 749
+  size: 187, 273
+  orig: 187, 273
+  offset: 0, 0
+  index: -1
+Bazoo
+  rotate: false
+  xy: 249, 333
+  size: 62, 157
+  orig: 62, 157
+  offset: 0, 0
+  index: -1
+Bini
+  rotate: false
+  xy: 460, 643
+  size: 38, 104
+  orig: 38, 104
+  offset: 0, 0
+  index: -1
+Cheshm
+  rotate: false
+  xy: 944, 951
+  size: 72, 71
+  orig: 72, 71
+  offset: 0, 0
+  index: -1
+Cheshm - Close
+  rotate: false
+  xy: 944, 878
+  size: 72, 71
+  orig: 72, 71
+  offset: 0, 0
+  index: -1
+Dast 1
+  rotate: false
+  xy: 944, 802
+  size: 57, 74
+  orig: 57, 74
+  offset: 0, 0
+  index: -1
+Dast 2
+  rotate: true
+  xy: 205, 55
+  size: 67, 75
+  orig: 67, 75
+  offset: 0, 0
+  index: -1
+Kafsh
+  rotate: true
+  xy: 419, 547
+  size: 91, 36
+  orig: 91, 36
+  offset: 0, 0
+  index: -1
+Lab
+  rotate: false
+  xy: 527, 943
+  size: 137, 79
+  orig: 137, 79
+  offset: 0, 0
+  index: -1
+Lab 1
+  rotate: true
+  xy: 338, 501
+  size: 137, 79
+  orig: 137, 79
+  offset: 0, 0
+  index: -1
+Lab 10
+  rotate: true
+  xy: 205, 124
+  size: 137, 79
+  orig: 137, 79
+  offset: 0, 0
+  index: -1
+Lab 2
+  rotate: false
+  xy: 527, 862
+  size: 137, 79
+  orig: 137, 79
+  offset: 0, 0
+  index: -1
+Lab 3
+  rotate: false
+  xy: 666, 943
+  size: 137, 79
+  orig: 137, 79
+  offset: 0, 0
+  index: -1
+Lab 4
+  rotate: false
+  xy: 527, 781
+  size: 137, 79
+  orig: 137, 79
+  offset: 0, 0
+  index: -1
+Lab 5
+  rotate: false
+  xy: 666, 862
+  size: 137, 79
+  orig: 137, 79
+  offset: 0, 0
+  index: -1
+Lab 6
+  rotate: false
+  xy: 805, 943
+  size: 137, 79
+  orig: 137, 79
+  offset: 0, 0
+  index: -1
+Lab 7
+  rotate: false
+  xy: 666, 781
+  size: 137, 79
+  orig: 137, 79
+  offset: 0, 0
+  index: -1
+Lab 8
+  rotate: false
+  xy: 805, 862
+  size: 137, 79
+  orig: 137, 79
+  offset: 0, 0
+  index: -1
+Lab 9
+  rotate: false
+  xy: 805, 781
+  size: 137, 79
+  orig: 137, 79
+  offset: 0, 0
+  index: -1
+Mardomak
+  rotate: false
+  xy: 527, 754
+  size: 26, 25
+  orig: 26, 25
+  offset: 0, 0
+  index: -1
+Moo
+  rotate: false
+  xy: 338, 640
+  size: 120, 107
+  orig: 120, 107
+  offset: 0, 0
+  index: -1
+Moo 2
+  rotate: false
+  xy: 2, 55
+  size: 201, 206
+  orig: 201, 206
+  offset: 0, 0
+  index: -1
+Pa
+  rotate: true
+  xy: 49, 13
+  size: 40, 69
+  orig: 40, 69
+  offset: 0, 0
+  index: -1
+Sar
+  rotate: false
+  xy: 2, 263
+  size: 245, 227
+  orig: 245, 227
+  offset: 0, 0
+  index: -1
+ghasedak
+  rotate: false
+  xy: 2, 492
+  size: 334, 530
+  orig: 334, 530
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,181 @@
+
+Asal.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Abroo
+  rotate: false
+  xy: 680, 401
+  size: 51, 45
+  orig: 51, 45
+  offset: 0, 0
+  index: -1
+Badan
+  rotate: false
+  xy: 2, 8
+  size: 187, 273
+  orig: 187, 273
+  offset: 0, 0
+  index: -1
+Bazoo
+  rotate: true
+  xy: 574, 448
+  size: 62, 157
+  orig: 62, 157
+  offset: 0, 0
+  index: -1
+Bini
+  rotate: true
+  xy: 574, 408
+  size: 38, 104
+  orig: 38, 104
+  offset: 0, 0
+  index: -1
+Cheshm
+  rotate: false
+  xy: 492, 110
+  size: 72, 71
+  orig: 72, 71
+  offset: 0, 0
+  index: -1
+Cheshm - Close
+  rotate: false
+  xy: 492, 37
+  size: 72, 71
+  orig: 72, 71
+  offset: 0, 0
+  index: -1
+Dast 1
+  rotate: true
+  xy: 272, 2
+  size: 57, 74
+  orig: 57, 74
+  offset: 0, 0
+  index: -1
+Dast 2
+  rotate: false
+  xy: 591, 331
+  size: 67, 75
+  orig: 67, 75
+  offset: 0, 0
+  index: -1
+Kafsh
+  rotate: true
+  xy: 573, 229
+  size: 91, 36
+  orig: 91, 36
+  offset: 0, 0
+  index: -1
+Lab
+  rotate: false
+  xy: 452, 322
+  size: 137, 79
+  orig: 137, 79
+  offset: 0, 0
+  index: -1
+Lab 1
+  rotate: false
+  xy: 733, 431
+  size: 137, 79
+  orig: 137, 79
+  offset: 0, 0
+  index: -1
+Lab 10
+  rotate: true
+  xy: 411, 26
+  size: 137, 79
+  orig: 137, 79
+  offset: 0, 0
+  index: -1
+Lab 2
+  rotate: false
+  xy: 872, 431
+  size: 137, 79
+  orig: 137, 79
+  offset: 0, 0
+  index: -1
+Lab 3
+  rotate: true
+  xy: 191, 144
+  size: 137, 79
+  orig: 137, 79
+  offset: 0, 0
+  index: -1
+Lab 4
+  rotate: true
+  xy: 191, 5
+  size: 137, 79
+  orig: 137, 79
+  offset: 0, 0
+  index: -1
+Lab 5
+  rotate: false
+  xy: 272, 223
+  size: 137, 79
+  orig: 137, 79
+  offset: 0, 0
+  index: -1
+Lab 6
+  rotate: false
+  xy: 272, 142
+  size: 137, 79
+  orig: 137, 79
+  offset: 0, 0
+  index: -1
+Lab 7
+  rotate: false
+  xy: 272, 61
+  size: 137, 79
+  orig: 137, 79
+  offset: 0, 0
+  index: -1
+Lab 8
+  rotate: true
+  xy: 411, 165
+  size: 137, 79
+  orig: 137, 79
+  offset: 0, 0
+  index: -1
+Lab 9
+  rotate: true
+  xy: 492, 183
+  size: 137, 79
+  orig: 137, 79
+  offset: 0, 0
+  index: -1
+Mardomak
+  rotate: false
+  xy: 348, 34
+  size: 26, 25
+  orig: 26, 25
+  offset: 0, 0
+  index: -1
+Moo
+  rotate: false
+  xy: 452, 403
+  size: 120, 107
+  orig: 120, 107
+  offset: 0, 0
+  index: -1
+Moo 2
+  rotate: false
+  xy: 249, 304
+  size: 201, 206
+  orig: 201, 206
+  offset: 0, 0
+  index: -1
+Pa
+  rotate: false
+  xy: 611, 260
+  size: 40, 69
+  orig: 40, 69
+  offset: 0, 0
+  index: -1
+Sar
+  rotate: false
+  xy: 2, 283
+  size: 245, 227
+  orig: 245, 227
+  offset: 0, 0
+  index: -1

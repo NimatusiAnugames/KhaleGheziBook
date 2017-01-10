@@ -1,0 +1,160 @@
+
+Nava.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Abroo
+  rotate: true
+  xy: 698, 354
+  size: 221, 136
+  orig: 221, 136
+  offset: 0, 0
+  index: -1
+Badan
+  rotate: false
+  xy: 2, 492
+  size: 374, 230
+  orig: 374, 230
+  offset: 0, 0
+  index: -1
+Bazoo
+  rotate: false
+  xy: 836, 421
+  size: 117, 154
+  orig: 117, 154
+  offset: 0, 0
+  index: -1
+Bini
+  rotate: false
+  xy: 924, 799
+  size: 84, 148
+  orig: 84, 148
+  offset: 0, 0
+  index: -1
+Cheshm
+  rotate: false
+  xy: 836, 364
+  size: 54, 55
+  orig: 54, 55
+  offset: 0, 0
+  index: -1
+Cheshm - Close
+  rotate: false
+  xy: 924, 742
+  size: 54, 55
+  orig: 54, 55
+  offset: 0, 0
+  index: -1
+Dast 1
+  rotate: false
+  xy: 924, 949
+  size: 98, 67
+  orig: 98, 67
+  offset: 0, 0
+  index: -1
+Dokme
+  rotate: false
+  xy: 698, 293
+  size: 93, 59
+  orig: 93, 59
+  offset: 0, 0
+  index: -1
+Kolah
+  rotate: true
+  xy: 257, 2
+  size: 233, 142
+  orig: 233, 142
+  offset: 0, 0
+  index: -1
+Lab
+  rotate: false
+  xy: 2, 345
+  size: 253, 145
+  orig: 253, 145
+  offset: 0, 0
+  index: -1
+Lab 1
+  rotate: false
+  xy: 669, 871
+  size: 253, 145
+  orig: 253, 145
+  offset: 0, 0
+  index: -1
+Lab 10
+  rotate: false
+  xy: 665, 577
+  size: 253, 145
+  orig: 253, 145
+  offset: 0, 0
+  index: -1
+Lab 2
+  rotate: false
+  xy: 2, 198
+  size: 253, 145
+  orig: 253, 145
+  offset: 0, 0
+  index: -1
+Lab 3
+  rotate: false
+  xy: 2, 51
+  size: 253, 145
+  orig: 253, 145
+  offset: 0, 0
+  index: -1
+Lab 4
+  rotate: true
+  xy: 257, 237
+  size: 253, 145
+  orig: 253, 145
+  offset: 0, 0
+  index: -1
+Lab 5
+  rotate: false
+  xy: 410, 679
+  size: 253, 145
+  orig: 253, 145
+  offset: 0, 0
+  index: -1
+Lab 6
+  rotate: false
+  xy: 378, 532
+  size: 253, 145
+  orig: 253, 145
+  offset: 0, 0
+  index: -1
+Lab 7
+  rotate: true
+  xy: 404, 277
+  size: 253, 145
+  orig: 253, 145
+  offset: 0, 0
+  index: -1
+Lab 8
+  rotate: true
+  xy: 551, 277
+  size: 253, 145
+  orig: 253, 145
+  offset: 0, 0
+  index: -1
+Lab 9
+  rotate: false
+  xy: 669, 724
+  size: 253, 145
+  orig: 253, 145
+  offset: 0, 0
+  index: -1
+Pa
+  rotate: false
+  xy: 410, 826
+  size: 257, 190
+  orig: 257, 190
+  offset: 0, 0
+  index: -1
+Sar
+  rotate: false
+  xy: 2, 724
+  size: 406, 292
+  orig: 406, 292
+  offset: 0, 0
+  index: -1

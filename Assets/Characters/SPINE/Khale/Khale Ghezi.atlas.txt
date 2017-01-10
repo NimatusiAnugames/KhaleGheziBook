@@ -1,0 +1,397 @@
+
+Khale Ghezi.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Abro
+  rotate: true
+  xy: 631, 6
+  size: 35, 64
+  orig: 35, 64
+  offset: 0, 0
+  index: -1
+Ambor
+  rotate: false
+  xy: 273, 551
+  size: 321, 188
+  orig: 321, 188
+  offset: 0, 0
+  index: -1
+Ambor Khamoosh
+  rotate: true
+  xy: 807, 167
+  size: 321, 188
+  orig: 321, 188
+  offset: 0, 0
+  index: -1
+Asa
+  rotate: false
+  xy: 547, 43
+  size: 260, 95
+  orig: 260, 95
+  offset: 0, 0
+  index: -1
+Badan
+  rotate: false
+  xy: 2, 711
+  size: 269, 311
+  orig: 269, 311
+  offset: 0, 0
+  index: -1
+Badan2
+  rotate: false
+  xy: 2, 9
+  size: 260, 134
+  orig: 260, 134
+  offset: 0, 0
+  index: -1
+Bini
+  rotate: true
+  xy: 547, 2
+  size: 39, 82
+  orig: 39, 82
+  offset: 0, 0
+  index: -1
+Chakosh
+  rotate: true
+  xy: 522, 423
+  size: 101, 262
+  orig: 101, 262
+  offset: 0, 0
+  index: -1
+Ghatre
+  rotate: true
+  xy: 522, 531
+  size: 18, 52
+  orig: 18, 52
+  offset: 0, 0
+  index: -1
+Halat Sar 1
+  rotate: false
+  xy: 2, 428
+  size: 258, 281
+  orig: 258, 281
+  offset: 0, 0
+  index: -1
+Halat Sar 2
+  rotate: false
+  xy: 273, 741
+  size: 258, 281
+  orig: 258, 281
+  offset: 0, 0
+  index: -1
+Halat Sar 3
+  rotate: false
+  xy: 2, 145
+  size: 258, 281
+  orig: 258, 281
+  offset: 0, 0
+  index: -1
+Halat Sar 4
+  rotate: false
+  xy: 533, 741
+  size: 258, 281
+  orig: 258, 281
+  offset: 0, 0
+  index: -1
+Halat Sar 5
+  rotate: false
+  xy: 262, 268
+  size: 258, 281
+  orig: 258, 281
+  offset: 0, 0
+  index: -1
+Halat Sar 6
+  rotate: true
+  xy: 264, 8
+  size: 258, 281
+  orig: 258, 281
+  offset: 0, 0
+  index: -1
+Halat Sar A
+  rotate: false
+  xy: 547, 140
+  size: 258, 281
+  orig: 258, 281
+  offset: 0, 0
+  index: -1
+Mardomak
+  rotate: false
+  xy: 576, 526
+  size: 18, 23
+  orig: 18, 23
+  offset: 0, 0
+  index: -1
+Mask down
+  rotate: false
+  xy: 793, 757
+  size: 229, 265
+  orig: 229, 265
+  offset: 0, 0
+  index: -1
+Mask up
+  rotate: false
+  xy: 793, 490
+  size: 229, 265
+  orig: 229, 265
+  offset: 0, 0
+  index: -1
+Moo
+  rotate: true
+  xy: 809, 8
+  size: 157, 178
+  orig: 157, 178
+  offset: 0, 0
+  index: -1
+Rosari-3
+  rotate: true
+  xy: 596, 526
+  size: 213, 194
+  orig: 213, 194
+  offset: 0, 0
+  index: -1
+
+Khale Ghezi2.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Ambor Nesfe
+  rotate: true
+  xy: 262, 418
+  size: 321, 188
+  orig: 321, 188
+  offset: 0, 0
+  index: -1
+Ambor Roshan
+  rotate: false
+  xy: 522, 834
+  size: 321, 188
+  orig: 321, 188
+  offset: 0, 0
+  index: -1
+Asa2
+  rotate: true
+  xy: 262, 125
+  size: 291, 212
+  orig: 291, 212
+  offset: 0, 0
+  index: -1
+Aviz
+  rotate: true
+  xy: 581, 163
+  size: 46, 88
+  orig: 46, 88
+  offset: 0, 0
+  index: -1
+Bazoo
+  rotate: true
+  xy: 194, 29
+  size: 94, 167
+  orig: 94, 167
+  offset: 0, 0
+  index: -1
+Cheshm-1-1
+  rotate: false
+  xy: 957, 946
+  size: 63, 76
+  orig: 63, 76
+  offset: 0, 0
+  index: -1
+Cheshm-1-2
+  rotate: false
+  xy: 635, 644
+  size: 63, 76
+  orig: 63, 76
+  offset: 0, 0
+  index: -1
+Cheshm-2-1
+  rotate: false
+  xy: 960, 694
+  size: 50, 60
+  orig: 50, 60
+  offset: 0, 0
+  index: -1
+Cheshm-2-2
+  rotate: true
+  xy: 604, 424
+  size: 50, 60
+  orig: 50, 60
+  offset: 0, 0
+  index: -1
+Dast 1-1
+  rotate: false
+  xy: 493, 52
+  size: 82, 109
+  orig: 82, 109
+  offset: 0, 0
+  index: -1
+Dast 1-2
+  rotate: false
+  xy: 530, 594
+  size: 103, 126
+  orig: 103, 126
+  offset: 0, 0
+  index: -1
+Dast 1-3
+  rotate: false
+  xy: 476, 163
+  size: 103, 126
+  orig: 103, 126
+  offset: 0, 0
+  index: -1
+Dast 2
+  rotate: true
+  xy: 363, 29
+  size: 94, 128
+  orig: 94, 128
+  offset: 0, 0
+  index: -1
+Dast 3
+  rotate: false
+  xy: 703, 717
+  size: 143, 115
+  orig: 143, 115
+  offset: 0, 0
+  index: -1
+Dast 4
+  rotate: false
+  xy: 577, 70
+  size: 90, 91
+  orig: 90, 91
+  offset: 0, 0
+  index: -1
+Dast 4-2
+  rotate: true
+  xy: 452, 421
+  size: 131, 90
+  orig: 131, 90
+  offset: 0, 0
+  index: -1
+Dast 5
+  rotate: false
+  xy: 572, 316
+  size: 83, 103
+  orig: 83, 103
+  offset: 0, 0
+  index: -1
+Dast 6
+  rotate: true
+  xy: 544, 476
+  size: 116, 102
+  orig: 116, 102
+  offset: 0, 0
+  index: -1
+Dast 7
+  rotate: false
+  xy: 581, 211
+  size: 83, 103
+  orig: 83, 103
+  offset: 0, 0
+  index: -1
+Dast 8
+  rotate: false
+  xy: 476, 291
+  size: 94, 128
+  orig: 94, 128
+  offset: 0, 0
+  index: -1
+Halat Sar A-Narahat
+  rotate: false
+  xy: 2, 741
+  size: 258, 281
+  orig: 258, 281
+  offset: 0, 0
+  index: -1
+Halat Sar M
+  rotate: false
+  xy: 2, 458
+  size: 258, 281
+  orig: 258, 281
+  offset: 0, 0
+  index: -1
+Halat Sar M-Narahat
+  rotate: false
+  xy: 262, 741
+  size: 258, 281
+  orig: 258, 281
+  offset: 0, 0
+  index: -1
+Halat Sar O
+  rotate: false
+  xy: 2, 175
+  size: 258, 281
+  orig: 258, 281
+  offset: 0, 0
+  index: -1
+Jaraghe1
+  rotate: true
+  xy: 845, 843
+  size: 179, 110
+  orig: 179, 110
+  offset: 0, 0
+  index: -1
+Jaraghe2
+  rotate: false
+  xy: 522, 722
+  size: 179, 110
+  orig: 179, 110
+  offset: 0, 0
+  index: -1
+Jaraghe3
+  rotate: true
+  xy: 848, 662
+  size: 179, 110
+  orig: 179, 110
+  offset: 0, 0
+  index: -1
+Kafsh
+  rotate: false
+  xy: 700, 642
+  size: 118, 73
+  orig: 118, 73
+  offset: 0, 0
+  index: -1
+Labeye Lebas-1
+  rotate: true
+  xy: 657, 330
+  size: 92, 83
+  orig: 92, 83
+  offset: 0, 0
+  index: -1
+Labeye Lebas-2
+  rotate: false
+  xy: 544, 421
+  size: 58, 53
+  orig: 58, 53
+  offset: 0, 0
+  index: -1
+Lule Abi
+  rotate: false
+  xy: 957, 851
+  size: 46, 93
+  orig: 46, 93
+  offset: 0, 0
+  index: -1
+Lule Zard
+  rotate: false
+  xy: 960, 756
+  size: 46, 93
+  orig: 46, 93
+  offset: 0, 0
+  index: -1
+Pa
+  rotate: false
+  xy: 452, 554
+  size: 76, 166
+  orig: 76, 166
+  offset: 0, 0
+  index: -1
+Rosari-2
+  rotate: false
+  xy: 2, 2
+  size: 190, 171
+  orig: 190, 171
+  offset: 0, 0
+  index: -1

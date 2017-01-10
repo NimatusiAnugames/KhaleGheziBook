@@ -1,0 +1,618 @@
+fileFormatVersion: 2
+guid: cbb40d2628b02a849af60544e8b8c0c6
+timeCreated: 1483965034
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: All
+    100002: AllGrp
+    100004: BackGround
+    100006: Body_01
+    100008: Body_02
+    100010: ch_a_A1_plane
+    100012: ch_a_A2_plane
+    100014: ch_a_A3_plane
+    100016: Char_a_1
+    100018: Char_a_2
+    100020: Char_d_1
+    100022: Char_d_2
+    100024: Char_H_1
+    100026: Char_H_2
+    100028: Char_L_1
+    100030: Char_n_1
+    100032: Char_n_2
+    100034: Char_R_1
+    100036: Controls
+    100038: Ctrl2
+    100040: Ctrl2 1
+    100042: Ctrl2 10
+    100044: Ctrl2 11
+    100046: Ctrl2 12
+    100048: Ctrl2 13
+    100050: Ctrl2 14
+    100052: Ctrl2 15
+    100054: Ctrl2 2
+    100056: Ctrl2 3
+    100058: Ctrl2 4
+    100060: Ctrl2 5
+    100062: Ctrl2 6
+    100064: Ctrl2 7
+    100066: Ctrl2 8
+    100068: Ctrl2 9
+    100070: Ctrl3
+    100072: Ctrl4
+    100074: Ctrl5
+    100076: Ctrl6
+    100078: Ctrl7
+    100080: curve1
+    100082: curve10
+    100084: curve11
+    100086: curve12
+    100088: curve13
+    100090: curve14
+    100092: curve15
+    100094: curve2
+    100096: curve3
+    100098: curve4
+    100100: curve5
+    100102: curve6
+    100104: curve7
+    100106: curve8
+    100108: curve9
+    100110: Eye_close_Border
+    100112: Eye_close_Border1
+    100114: Eye_close_Border2
+    100116: Eye_close_gizmo
+    100118: Eye_close_gizmo 1
+    100120: Eye_close_gizmo 2
+    100122: Eye_close_icon
+    100124: FK_IK_R_Ctrl
+    100126: FK_IK_R_Ctrl 1
+    100128: FK_IK_R_Grp
+    100130: FK_IK_R_Grp1
+    100132: Grp10
+    100134: Grp11
+    100136: Grp12
+    100138: Grp13
+    100140: Grp14
+    100142: Grp15
+    100144: Grp16
+    100146: Grp17
+    100148: Grp2
+    100150: Grp3
+    100152: Grp4
+    100154: Grp5
+    100156: Grp6
+    100158: Grp7
+    100160: Grp8
+    100162: Grp9
+    100164: Hat
+    100166: Hat 1
+    100168: Head
+    100170: Head 1
+    100172: Joints
+    100174: L_Ankle
+    100176: L_Ankle 1
+    100178: L_Ankle_IK_Ctrl
+    100180: L_Ankle_IK_Grp
+    100182: L_Ankle_Ik_Handle
+    100184: L_Ankle_Ik_Loc
+    100186: L_Ball
+    100188: L_Ball_Ik_Handle
+    100190: L_Ball_Ik_Loc
+    100192: L_Elbow
+    100194: L_Elbow_FK
+    100196: L_Elbow_IK
+    100198: L_Eye
+    100200: L_eye
+    100202: L_Eyebrow
+    100204: L_eyebrow
+    100206: L_Eyeclose
+    100208: L_eyeclose
+    100210: L_Eyeframe
+    100212: L_eyeframe
+    100214: L_Heel
+    100216: L_Heel_Ik_Handle
+    100218: L_Heel_Ik_Loc
+    100220: L_Hip
+    100222: L_Knee
+    100224: L_Shoulder
+    100226: L_Shoulder_FK
+    100228: L_Shoulder_IK
+    100230: L_Toe
+    100232: L_Toe_Ik_Handle
+    100234: L_Toe_Ik_Loc
+    100236: L_Wrist
+    100238: L_wrist
+    100240: L_Wrist_01
+    100242: L_Wrist_01_IK
+    100244: L_Wrist_01_IK_Handle
+    100246: L_Wrist_FK
+    100248: L_Wrist_IK
+    100250: L_Wrist_Ik_Ctrl
+    100252: L_Wrist_Ik_Grp
+    100254: L_Wrist_IK_Handle
+    100256: L_Wrist_Tx_01
+    100258: L_Wrist_Tx_02
+    100260: lab1
+    100262: lab10
+    100264: lab11
+    100266: lab2
+    100268: lab3
+    100270: lab4
+    100272: lab5
+    100274: lab6
+    100276: lab7
+    100278: lab8
+    100280: lab9
+    100282: Lip01
+    100284: Lip010
+    100286: Lip011
+    100288: Lip02
+    100290: Lip03
+    100292: Lip04
+    100294: Lip05
+    100296: Lip06
+    100298: Lip07
+    100300: Lip08
+    100302: Lip09
+    100304: Lip_Main
+    100306: Lipsync_Border
+    100308: Lipsync_gizmo
+    100310: Lipsynctext
+    100312: Model_Grp
+    100314: Nose
+    100316: nose
+    100318: //RootNode
+    100320: pPlane1
+    100322: pPlane2
+    100324: pPlane2 1
+    100326: pPlane3
+    100328: R_Ankle
+    100330: R_Ankle 1
+    100332: R_Ankle_IK_Ctrl
+    100334: R_Ankle_IK_Grp
+    100336: R_Ankle_Ik_Handle
+    100338: R_Ankle_Ik_Loc
+    100340: R_Ball
+    100342: R_Ball_Ik_Handle
+    100344: R_Ball_Ik_Loc
+    100346: R_Elbow
+    100348: R_Elbow_FK
+    100350: R_Elbow_IK
+    100352: R_Eye
+    100354: R_eye
+    100356: R_Eyebrow
+    100358: R_eyebrow
+    100360: R_Eyeclose
+    100362: R_eyeclose
+    100364: R_Eyeframe
+    100366: R_eyeframe
+    100368: R_Foot
+    100370: R_foot
+    100372: R_Hand
+    100374: R_Hand1
+    100376: R_Heel
+    100378: R_Heel_Ik_Handle
+    100380: R_Heel_Ik_Loc
+    100382: R_Hip
+    100384: R_Knee
+    100386: R_Shoulder
+    100388: R_Shoulder_FK
+    100390: R_Shoulder_IK
+    100392: R_Toe
+    100394: R_Toe_Ik_Handle
+    100396: R_Toe_Ik_Loc
+    100398: R_Wrist
+    100400: R_wrist
+    100402: R_Wrist_01
+    100404: R_Wrist_01_IK
+    100406: R_Wrist_01_Ik_Handle
+    100408: R_Wrist_FK
+    100410: R_Wrist_IK
+    100412: R_Wrist_Ik_Ctrl
+    100414: R_Wrist_Ik_Grp
+    100416: R_Wrist_Ik_Handle
+    100418: R_Wrist_Tx_01
+    100420: R_Wrist_Tx_02
+    100422: Root
+    100424: Root_Ctrl
+    100426: Root_Grp
+    100428: Spine
+    100430: Text_LxHand_1
+    100432: Text_RxHand_1
+    100434: UIBORDER
+    400000: All
+    400002: AllGrp
+    400004: BackGround
+    400006: Body_01
+    400008: Body_02
+    400010: ch_a_A1_plane
+    400012: ch_a_A2_plane
+    400014: ch_a_A3_plane
+    400016: Char_a_1
+    400018: Char_a_2
+    400020: Char_d_1
+    400022: Char_d_2
+    400024: Char_H_1
+    400026: Char_H_2
+    400028: Char_L_1
+    400030: Char_n_1
+    400032: Char_n_2
+    400034: Char_R_1
+    400036: Controls
+    400038: Ctrl2
+    400040: Ctrl2 1
+    400042: Ctrl2 10
+    400044: Ctrl2 11
+    400046: Ctrl2 12
+    400048: Ctrl2 13
+    400050: Ctrl2 14
+    400052: Ctrl2 15
+    400054: Ctrl2 2
+    400056: Ctrl2 3
+    400058: Ctrl2 4
+    400060: Ctrl2 5
+    400062: Ctrl2 6
+    400064: Ctrl2 7
+    400066: Ctrl2 8
+    400068: Ctrl2 9
+    400070: Ctrl3
+    400072: Ctrl4
+    400074: Ctrl5
+    400076: Ctrl6
+    400078: Ctrl7
+    400080: curve1
+    400082: curve10
+    400084: curve11
+    400086: curve12
+    400088: curve13
+    400090: curve14
+    400092: curve15
+    400094: curve2
+    400096: curve3
+    400098: curve4
+    400100: curve5
+    400102: curve6
+    400104: curve7
+    400106: curve8
+    400108: curve9
+    400110: Eye_close_Border
+    400112: Eye_close_Border1
+    400114: Eye_close_Border2
+    400116: Eye_close_gizmo
+    400118: Eye_close_gizmo 1
+    400120: Eye_close_gizmo 2
+    400122: Eye_close_icon
+    400124: FK_IK_R_Ctrl
+    400126: FK_IK_R_Ctrl 1
+    400128: FK_IK_R_Grp
+    400130: FK_IK_R_Grp1
+    400132: Grp10
+    400134: Grp11
+    400136: Grp12
+    400138: Grp13
+    400140: Grp14
+    400142: Grp15
+    400144: Grp16
+    400146: Grp17
+    400148: Grp2
+    400150: Grp3
+    400152: Grp4
+    400154: Grp5
+    400156: Grp6
+    400158: Grp7
+    400160: Grp8
+    400162: Grp9
+    400164: Hat
+    400166: Hat 1
+    400168: Head
+    400170: Head 1
+    400172: Joints
+    400174: L_Ankle
+    400176: L_Ankle 1
+    400178: L_Ankle_IK_Ctrl
+    400180: L_Ankle_IK_Grp
+    400182: L_Ankle_Ik_Handle
+    400184: L_Ankle_Ik_Loc
+    400186: L_Ball
+    400188: L_Ball_Ik_Handle
+    400190: L_Ball_Ik_Loc
+    400192: L_Elbow
+    400194: L_Elbow_FK
+    400196: L_Elbow_IK
+    400198: L_Eye
+    400200: L_eye
+    400202: L_Eyebrow
+    400204: L_eyebrow
+    400206: L_Eyeclose
+    400208: L_eyeclose
+    400210: L_Eyeframe
+    400212: L_eyeframe
+    400214: L_Heel
+    400216: L_Heel_Ik_Handle
+    400218: L_Heel_Ik_Loc
+    400220: L_Hip
+    400222: L_Knee
+    400224: L_Shoulder
+    400226: L_Shoulder_FK
+    400228: L_Shoulder_IK
+    400230: L_Toe
+    400232: L_Toe_Ik_Handle
+    400234: L_Toe_Ik_Loc
+    400236: L_Wrist
+    400238: L_wrist
+    400240: L_Wrist_01
+    400242: L_Wrist_01_IK
+    400244: L_Wrist_01_IK_Handle
+    400246: L_Wrist_FK
+    400248: L_Wrist_IK
+    400250: L_Wrist_Ik_Ctrl
+    400252: L_Wrist_Ik_Grp
+    400254: L_Wrist_IK_Handle
+    400256: L_Wrist_Tx_01
+    400258: L_Wrist_Tx_02
+    400260: lab1
+    400262: lab10
+    400264: lab11
+    400266: lab2
+    400268: lab3
+    400270: lab4
+    400272: lab5
+    400274: lab6
+    400276: lab7
+    400278: lab8
+    400280: lab9
+    400282: Lip01
+    400284: Lip010
+    400286: Lip011
+    400288: Lip02
+    400290: Lip03
+    400292: Lip04
+    400294: Lip05
+    400296: Lip06
+    400298: Lip07
+    400300: Lip08
+    400302: Lip09
+    400304: Lip_Main
+    400306: Lipsync_Border
+    400308: Lipsync_gizmo
+    400310: Lipsynctext
+    400312: Model_Grp
+    400314: Nose
+    400316: nose
+    400318: //RootNode
+    400320: pPlane1
+    400322: pPlane2
+    400324: pPlane2 1
+    400326: pPlane3
+    400328: R_Ankle
+    400330: R_Ankle 1
+    400332: R_Ankle_IK_Ctrl
+    400334: R_Ankle_IK_Grp
+    400336: R_Ankle_Ik_Handle
+    400338: R_Ankle_Ik_Loc
+    400340: R_Ball
+    400342: R_Ball_Ik_Handle
+    400344: R_Ball_Ik_Loc
+    400346: R_Elbow
+    400348: R_Elbow_FK
+    400350: R_Elbow_IK
+    400352: R_Eye
+    400354: R_eye
+    400356: R_Eyebrow
+    400358: R_eyebrow
+    400360: R_Eyeclose
+    400362: R_eyeclose
+    400364: R_Eyeframe
+    400366: R_eyeframe
+    400368: R_Foot
+    400370: R_foot
+    400372: R_Hand
+    400374: R_Hand1
+    400376: R_Heel
+    400378: R_Heel_Ik_Handle
+    400380: R_Heel_Ik_Loc
+    400382: R_Hip
+    400384: R_Knee
+    400386: R_Shoulder
+    400388: R_Shoulder_FK
+    400390: R_Shoulder_IK
+    400392: R_Toe
+    400394: R_Toe_Ik_Handle
+    400396: R_Toe_Ik_Loc
+    400398: R_Wrist
+    400400: R_wrist
+    400402: R_Wrist_01
+    400404: R_Wrist_01_IK
+    400406: R_Wrist_01_Ik_Handle
+    400408: R_Wrist_FK
+    400410: R_Wrist_IK
+    400412: R_Wrist_Ik_Ctrl
+    400414: R_Wrist_Ik_Grp
+    400416: R_Wrist_Ik_Handle
+    400418: R_Wrist_Tx_01
+    400420: R_Wrist_Tx_02
+    400422: Root
+    400424: Root_Ctrl
+    400426: Root_Grp
+    400428: Spine
+    400430: Text_LxHand_1
+    400432: Text_RxHand_1
+    400434: UIBORDER
+    2300000: ch_a_A1_plane
+    2300002: ch_a_A2_plane
+    2300004: ch_a_A3_plane
+    2300006: Hat 1
+    2300008: Head 1
+    2300010: L_eye
+    2300012: L_eyebrow
+    2300014: L_eyeclose
+    2300016: L_eyeframe
+    2300018: L_wrist
+    2300020: lab1
+    2300022: lab10
+    2300024: lab11
+    2300026: lab2
+    2300028: lab3
+    2300030: lab4
+    2300032: lab5
+    2300034: lab6
+    2300036: lab7
+    2300038: lab8
+    2300040: lab9
+    2300042: nose
+    2300044: pPlane1
+    2300046: pPlane2
+    2300048: pPlane2 1
+    2300050: pPlane3
+    2300052: R_eye
+    2300054: R_eyebrow
+    2300056: R_eyeclose
+    2300058: R_eyeframe
+    2300060: R_wrist
+    3300000: ch_a_A1_plane
+    3300002: ch_a_A2_plane
+    3300004: ch_a_A3_plane
+    3300006: Hat 1
+    3300008: Head 1
+    3300010: L_eye
+    3300012: L_eyebrow
+    3300014: L_eyeclose
+    3300016: L_eyeframe
+    3300018: L_wrist
+    3300020: lab1
+    3300022: lab10
+    3300024: lab11
+    3300026: lab2
+    3300028: lab3
+    3300030: lab4
+    3300032: lab5
+    3300034: lab6
+    3300036: lab7
+    3300038: lab8
+    3300040: lab9
+    3300042: nose
+    3300044: pPlane1
+    3300046: pPlane2
+    3300048: pPlane2 1
+    3300050: pPlane3
+    3300052: R_eye
+    3300054: R_eyebrow
+    3300056: R_eyeclose
+    3300058: R_eyeframe
+    3300060: R_wrist
+    4300000: ch_a_A3_plane
+    4300002: ch_a_A2_plane
+    4300004: ch_a_A1_plane
+    4300006: R_eye
+    4300008: R_eyebrow
+    4300010: R_eyeclose
+    4300012: R_eyeframe
+    4300014: nose
+    4300016: L_eye
+    4300018: L_eyebrow
+    4300020: L_eyeclose
+    4300022: L_eyeframe
+    4300024: Hat
+    4300026: lab1
+    4300028: lab2
+    4300030: lab3
+    4300032: lab4
+    4300034: lab5
+    4300036: lab6
+    4300038: lab7
+    4300040: lab8
+    4300042: lab9
+    4300044: lab10
+    4300046: lab11
+    4300048: Head
+    4300050: R_wrist
+    4300052: pPlane2
+    4300054: pPlane3
+    4300056: L_wrist
+    4300058: pPlane1
+    4300060: pPlane2
+    4300062: R_Hand
+    4300064: R_Hand1
+    4300066: R_Ankle
+    4300068: L_Ankle
+    4300070: R_foot
+    4300072: Body_02
+    4300074: R_Foot
+    4300076: Body_01
+    7400000: Take 001
+    9500000: //RootNode
+    13700000: Body_01
+    13700002: Body_02
+    13700004: L_Ankle
+    13700006: R_Ankle
+    13700008: R_Foot
+    13700010: R_foot
+    13700012: R_Hand
+    13700014: R_Hand1
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 0
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

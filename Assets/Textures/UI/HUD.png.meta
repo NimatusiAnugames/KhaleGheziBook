@@ -1,0 +1,97 @@
+fileFormatVersion: 2
+guid: 7dbfcabbe33c77b49b6d0eafd3c08ab9
+timeCreated: 1482593103
+licenseType: Pro
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Next_Page
+    21300002: Prev_Page
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Next_Page
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 916
+        width: 105
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -37.5, y: 54}
+        - {x: -52.5, y: 44}
+        - {x: -52.5, y: -46}
+        - {x: -38.5, y: -54}
+        - {x: 37.5, y: -54}
+        - {x: 52.5, y: -50}
+        - {x: 52.5, y: 45}
+        - {x: 46.5, y: 54}
+    - name: Prev_Page
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 916
+        width: 105
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -37.5, y: 54}
+        - {x: -52.5, y: 44}
+        - {x: -52.5, y: -46}
+        - {x: -38.5, y: -54}
+        - {x: 37.5, y: -54}
+        - {x: 52.5, y: -50}
+        - {x: 52.5, y: 45}
+        - {x: 46.5, y: 54}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

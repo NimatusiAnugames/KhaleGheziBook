@@ -1,0 +1,195 @@
+
+Mana.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Abroo
+  rotate: false
+  xy: 266, 140
+  size: 62, 79
+  orig: 62, 79
+  offset: 0, 0
+  index: -1
+Badan
+  rotate: false
+  xy: 322, 831
+  size: 224, 184
+  orig: 224, 184
+  offset: 0, 0
+  index: -1
+Bazoo-L
+  rotate: false
+  xy: 266, 429
+  size: 48, 153
+  orig: 48, 153
+  offset: 0, 0
+  index: -1
+Bazoo-R
+  rotate: false
+  xy: 468, 676
+  size: 48, 153
+  orig: 48, 153
+  offset: 0, 0
+  index: -1
+Bini
+  rotate: true
+  xy: 2, 2
+  size: 37, 106
+  orig: 37, 106
+  offset: 0, 0
+  index: -1
+Cheshm 1
+  rotate: true
+  xy: 195, 29
+  size: 103, 84
+  orig: 103, 84
+  offset: 0, 0
+  index: -1
+Cheshm 1-Close
+  rotate: true
+  xy: 266, 324
+  size: 103, 84
+  orig: 103, 84
+  offset: 0, 0
+  index: -1
+Cheshm 2
+  rotate: true
+  xy: 266, 221
+  size: 101, 97
+  orig: 101, 97
+  offset: 0, 0
+  index: -1
+Cheshm 2-Close
+  rotate: true
+  xy: 281, 37
+  size: 101, 97
+  orig: 101, 97
+  offset: 0, 0
+  index: -1
+Daman
+  rotate: true
+  xy: 2, 134
+  size: 448, 262
+  orig: 448, 262
+  offset: 0, 0
+  index: -1
+Dast Roo
+  rotate: true
+  xy: 322, 572
+  size: 49, 67
+  orig: 49, 67
+  offset: 0, 0
+  index: -1
+Dast Zir
+  rotate: true
+  xy: 391, 572
+  size: 49, 67
+  orig: 49, 67
+  offset: 0, 0
+  index: -1
+Lab
+  rotate: false
+  xy: 322, 727
+  size: 144, 102
+  orig: 144, 102
+  offset: 0, 0
+  index: -1
+Lab 1
+  rotate: false
+  xy: 548, 913
+  size: 144, 102
+  orig: 144, 102
+  offset: 0, 0
+  index: -1
+Lab 10
+  rotate: false
+  xy: 810, 705
+  size: 144, 102
+  orig: 144, 102
+  offset: 0, 0
+  index: -1
+Lab 2
+  rotate: false
+  xy: 322, 623
+  size: 144, 102
+  orig: 144, 102
+  offset: 0, 0
+  index: -1
+Lab 3
+  rotate: false
+  xy: 694, 913
+  size: 144, 102
+  orig: 144, 102
+  offset: 0, 0
+  index: -1
+Lab 4
+  rotate: false
+  xy: 840, 913
+  size: 144, 102
+  orig: 144, 102
+  offset: 0, 0
+  index: -1
+Lab 5
+  rotate: false
+  xy: 548, 809
+  size: 144, 102
+  orig: 144, 102
+  offset: 0, 0
+  index: -1
+Lab 6
+  rotate: false
+  xy: 694, 809
+  size: 144, 102
+  orig: 144, 102
+  offset: 0, 0
+  index: -1
+Lab 7
+  rotate: false
+  xy: 840, 809
+  size: 144, 102
+  orig: 144, 102
+  offset: 0, 0
+  index: -1
+Lab 8
+  rotate: false
+  xy: 518, 705
+  size: 144, 102
+  orig: 144, 102
+  offset: 0, 0
+  index: -1
+Lab 9
+  rotate: false
+  xy: 664, 705
+  size: 144, 102
+  orig: 144, 102
+  offset: 0, 0
+  index: -1
+Mardomak 1
+  rotate: false
+  xy: 986, 977
+  size: 33, 38
+  orig: 33, 38
+  offset: 0, 0
+  index: -1
+Mardomak 2
+  rotate: false
+  xy: 316, 512
+  size: 50, 58
+  orig: 50, 58
+  offset: 0, 0
+  index: -1
+Pa
+  rotate: true
+  xy: 2, 41
+  size: 91, 191
+  orig: 91, 191
+  offset: 0, 0
+  index: -1
+Sar
+  rotate: false
+  xy: 2, 584
+  size: 318, 431
+  orig: 318, 431
+  offset: 0, 0
+  index: -1
