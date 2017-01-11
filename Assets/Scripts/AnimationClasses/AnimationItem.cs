@@ -8,6 +8,16 @@ public class AnimationItem : MonoBehaviour
 
     protected const string AnimStateParam = "State";
     public const int NonState = -1;
+    private int curState = -1;
+    public int CurrentState
+    {
+        get { return curState; }
+        set
+        {
+            curState = value;
+            SetState(curState);
+        }
+    }
 
     //Names
     public const string IdleClip = "Idle";
@@ -20,10 +30,11 @@ public class AnimationItem : MonoBehaviour
     protected virtual void Start()
     {
         animator = GetComponent<Animator>();
-        foreach (var item in animator.runtimeAnimatorController.animationClips)
-        {
-            Debug.Log(item.name);
-        }
+        //AnimStateBehaviour[] anims = animator.GetBehaviours<AnimStateBehaviour>();
+        //for (int i = 0; i < anims.Length; i++)
+        //{
+        //    anims[i].animationitem = this;
+        //}
     }
 
     //This method set current state for item
@@ -72,7 +83,4 @@ public class AnimationItem : MonoBehaviour
 
     //Speed of transfer position
     public float MoveSpeed = 1;
-
-    //Is this item in interctive mode
-    public bool IsInterctiveMode = false;
 }

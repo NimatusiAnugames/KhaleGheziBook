@@ -6,6 +6,7 @@ public class CreateAnimationStateId : ScriptableObject
 {
     private struct FieldInformation
     {
+        public string ClipName;
         public string Name;
         public int ID;
     }
@@ -15,9 +16,12 @@ public class CreateAnimationStateId : ScriptableObject
     #region <RegionName>
     <CodePlace>
     #endregion";
-    private const string CodeLine =
+    private const string CodeLineInt =
     @"
     public const int ";
+    private const string CodeLineString =
+    @"
+    public const string ";
 
 
 
@@ -47,6 +51,7 @@ public class CreateAnimationStateId : ScriptableObject
         for (int c = 0; c < clips.Length; c++)
         {
             string name = clips[c].name.Replace(' ', '_');
+            string clipname = name;
             name = obj.name + "_" + name;
             bool isInCode = false;
             for (int i = 0; i < data.Length; i++)
@@ -55,7 +60,7 @@ public class CreateAnimationStateId : ScriptableObject
                     isInCode = true;
             }
             if (!isInCode)
-                fields.Add(new FieldInformation() { Name = name, ID = anims[c].ID });
+                fields.Add(new FieldInformation() { Name = name, ID = anims[c].ID, ClipName = clipname});
         }
         int index = 0;
         bool found = false;
@@ -74,7 +79,8 @@ public class CreateAnimationStateId : ScriptableObject
         string codes = string.Empty;
         for (int i = 0; i < fields.Count; i++)
         {
-            codes += "\r\n" + CodeLine + fields[i].Name + " = " + fields[i].ID.ToString() + ";";
+            codes += "\r\n" + CodeLineInt + fields[i].Name + " = " + fields[i].ID.ToString() + ";";
+            codes += "\r\n" + CodeLineString + fields[i].Name + "Clip = " + "\"" + fields[i].ClipName + "\"" + ";";
         }
         if (found)
         {

@@ -5,6 +5,7 @@ public class Plan1Part1  :  MapBase
 {
     #region Plan States 
 
+    private const int InitState = -2;
     private const int ShahreFarangIntroState = 0;
     private const int LandAndComingChildrenState = 1;
     private const int MahoorQuestionState = 2;
@@ -15,21 +16,21 @@ public class Plan1Part1  :  MapBase
 
     #region Fields 
     //Shaher farang fields
-    public ShahreFarang ShahreFarangDevice;
+    public AnimationItem ShahreFarangDevice;
     public Transform ShahreFarangPlaceHodler;
     private Vector3 shahrefarangFromPos;
 
     //Amoo fields
-    public Amoo AmooCharacter;
+    public AnimationItem AmooCharacter;
     private float speechAmooTime = 5;
 
     //Mahoor fieldsa
-    public Mahoor MahoorCharacter;
+    public AnimationItem MahoorCharacter;
     public Transform MahoorPlaceHolder;
     private Vector3 mahoorFromPos;
 
     //Nava fields
-    public Nava NavaCharacter;
+    public AnimationItem NavaCharacter;
     public Transform NavaPlaceHolder;
     private Vector3 navaFromPos;
 
@@ -44,17 +45,9 @@ public class Plan1Part1  :  MapBase
         //Shahre farang
         shahrefarangFromPos = ShahreFarangDevice.transform.position - new Vector3(9, 0, 0);
         ShahreFarangDevice.transform.position -= new Vector3(9, 0, 0);
-        ShahreFarangDevice.StartAction = new System.Action<int>((id) =>
-        {
-            if (id == ShahreFarang.IdleState)
-            {
-                ShahreFarangDevice.IsInterctiveMode = false;
-                ShahreFarangDevice.SetState(ShahreFarang.IdleState);
-            }
-        });
         ShahreFarangDevice.EndAction = new System.Action<int>((id) => 
         {
-            if(currentState == LandAndComingChildrenState)
+            if(id == AnimConsts.ShahrFarang_Piade_Shodan)
             {
                 AmooCharacter.gameObject.SetActive(true);
             }
@@ -63,20 +56,12 @@ public class Plan1Part1  :  MapBase
         //Mahoor character
         mahoorFromPos = MahoorCharacter.transform.position - new Vector3(7, 0, 0);
         MahoorCharacter.transform.position -= new Vector3(7, 0, 0);
-        MahoorCharacter.StartAction = new System.Action<int>((id) =>
-        {
-            if(id == Mahoor.IdleState)
-            {
-                MahoorCharacter.IsInterctiveMode = false;
-                MahoorCharacter.SetState(Mahoor.IdleState);
-            }
-        });
         MahoorCharacter.EndAction = new System.Action<int>((id) => 
         {
-            if(id == Mahoor.TalkState && currentState == MahoorQuestionState)
+            if(id == AnimConsts.MahoorChar_Eshare && currentState == MahoorQuestionState)
             {
                 Debug.Log("Response amoo State");
-                MahoorCharacter.SetState(Mahoor.IdleState);
+                MahoorCharacter.SetState(AnimConsts.MahoorChar_Idle);
                 frame4 = speechAmooTime;
                 currentState = ResponseAmooState;
                 SetResponseAmoo();
@@ -86,17 +71,8 @@ public class Plan1Part1  :  MapBase
         //Nava characters
         navaFromPos = NavaCharacter.transform.position - new Vector3(8, 0, 0);
         NavaCharacter.transform.position -= new Vector3(8, 0, 0);
-        NavaCharacter.StartAction = new System.Action<int>((id) => 
-        {
-            if(id == Nava.IdleState)
-            {
-                NavaCharacter.IsInterctiveMode = false;
-                NavaCharacter.SetState(Nava.IdleState);
-            }
-        });
 
         //Amoo
-        AmooCharacter.gameObject.SetActive(false);
         AmooCharacter.EndAction = new System.Action<int>((id) => 
         {
             if(currentState == ResponseAmooState)
@@ -106,7 +82,7 @@ public class Plan1Part1  :  MapBase
         });
 
         Debug.Log("Shahre farang intro State");
-        currentState = ShahreFarangIntroState;
+        currentState = InitState;
     }
 
     protected override void Update()
@@ -121,6 +97,9 @@ public class Plan1Part1  :  MapBase
 
         switch (currentState)
         {
+            case InitState:
+                InitAction();
+                break;
             case ShahreFarangIntroState:
                 ShahreFarangIntroAction();
                 break;
@@ -136,6 +115,14 @@ public class Plan1Part1  :  MapBase
     }
 
     #region State Actions
+    private void InitAction()
+    {
+        ShahreFarangDevice.SetAnimation(AnimConsts.ShahrFarang_Rekab_ZadanClip);
+        MahoorCharacter.SetAnimation(AnimConsts.MahoorChar_DavidanClip);
+        NavaCharacter.SetAnimation(AnimConsts.NavaChar_DavidanClip);
+        AmooCharacter.gameObject.SetActive(false);
+        currentState = ShahreFarangIntroState;
+    }
     private void ShahreFarangIntroAction()
     {
         frame1 += Time.deltaTime * ShahreFarangDevice.MoveSpeed;
@@ -146,25 +133,25 @@ public class Plan1Part1  :  MapBase
             Debug.Log("Land and coming children State");
             frame2 = 0;
             currentState = LandAndComingChildrenState;
-            ShahreFarangDevice.SetState(ShahreFarang.AmooLandState);
-            MahoorCharacter.SetState(Mahoor.RunState);
-            NavaCharacter.SetState(Nava.RunState);
+            ShahreFarangDevice.SetState(AnimConsts.ShahrFarang_Piade_Shodan);
+            MahoorCharacter.SetState(AnimConsts.MahoorChar_Davidan);
+            NavaCharacter.SetState(AnimConsts.NavaChar_Davidan);
         }
     }
     private void LandAndComingChildrenAction()
     {
         //Mahoor
         LerpItem(MahoorCharacter.transform, mahoorFromPos, MahoorPlaceHolder.position,
-            ref frame2, MahoorCharacter.MoveSpeed, new System.Action(() => MahoorCharacter.SetState(Mahoor.IdleState)));
+            ref frame2, MahoorCharacter.MoveSpeed, new System.Action(() => MahoorCharacter.SetState(AnimConsts.MahoorChar_Idle)));
 
         //Nava
         LerpItem(NavaCharacter.transform, navaFromPos, NavaPlaceHolder.position, ref frame3, NavaCharacter.MoveSpeed,
             new System.Action(() =>
             {
                 Debug.Log("Mahoor question State");
-                NavaCharacter.SetState(Nava.IdleState);
+                NavaCharacter.SetState(AnimConsts.NavaChar_Idle);
                 currentState = MahoorQuestionState;
-                MahoorCharacter.SetState(Mahoor.TalkState);
+                MahoorCharacter.SetState(AnimConsts.MahoorChar_Eshare);
             }));
     }
     private void ResponseAmooAction()
@@ -174,14 +161,14 @@ public class Plan1Part1  :  MapBase
         {
             Debug.Log("Done State");
             currentState = DoneState;
-            AmooCharacter.SetState(Amoo.IdleState);
+            AmooCharacter.SetState(AnimConsts.Amoo_Idle);
         }
     }
 
     //Set random animation for amoo speech
     private void SetResponseAmoo()
     {
-        int state = (Random.Range(0, 2) == 0 ? Amoo.Speech1 : Amoo.Speech2);
+        int state = (Random.Range(0, 2) == 0 ? AnimConsts.Amoo_Harf_Zadan : AnimConsts.Amoo_Harf_Zadan2);
         AmooCharacter.SetState(state);
     }
     #endregion
@@ -202,11 +189,10 @@ public class Plan1Part1  :  MapBase
     {
         if(currentState > 1)
         {
-            if (!ShahreFarangDevice.IsInterctiveMode)
+            if (ShahreFarangDevice.CurrentState == AnimConsts.ShahrFarang_Idle)
             {
                 Debug.Log("Shahre farang interactive");
-                ShahreFarangDevice.IsInterctiveMode = true;
-                ShahreFarangDevice.SetState(ShahreFarang.ActState);
+                ShahreFarangDevice.SetState(AnimConsts.ShahrFarang_Akt);
                 //Play sound
                 //...
             }
@@ -216,23 +202,21 @@ public class Plan1Part1  :  MapBase
     {
         if(currentState == DoneState)
         {
-            if (!MahoorCharacter.IsInterctiveMode)
+            if (MahoorCharacter.CurrentState == AnimConsts.MahoorChar_Idle)
             {
                 Debug.Log("Mahoor interactive");
-                MahoorCharacter.IsInterctiveMode = true;
-                MahoorCharacter.SetState(Mahoor.IdleSurprisedState);
+                MahoorCharacter.SetState(AnimConsts.MahoorChar_Idle_Moteajeb);
             }
         }
     }
     public void NavaInteractive()
     {
-        if(currentState > 1)
+        if(currentState > LandAndComingChildrenState)
         {
-            if (!NavaCharacter.IsInterctiveMode)
+            if (NavaCharacter.CurrentState == AnimConsts.NavaChar_Idle)
             {
                 Debug.Log("Nava interactive");
-                NavaCharacter.IsInterctiveMode = true;
-                NavaCharacter.SetState(Nava.TalkState);
+                NavaCharacter.SetState(AnimConsts.NavaChar_Eshare);
             }
         }
     }

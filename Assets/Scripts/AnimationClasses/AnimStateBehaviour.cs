@@ -5,14 +5,18 @@ public class AnimStateBehaviour : StateMachineBehaviour
 {
     //ID of this state
     public int ID;
-
-	private AnimationItem animationitem = null;
+    //Refrence of animation item
+    [HideInInspector]
+	public AnimationItem animationitem = null;
 
 	// OnStateEnter is called when a transition starts and the state machine starts to evaluate this state
     override public void OnStateEnter(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
-        if (animationitem == null)
+        if(animationitem == null)
+        {
             animationitem = animator.GetComponent<AnimationItem>();
+        }
+        animationitem.CurrentState = ID;
         animationitem.StartState(ID);
     }
 
@@ -25,7 +29,9 @@ public class AnimStateBehaviour : StateMachineBehaviour
     override public void OnStateExit(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
         if (animationitem == null)
+        {
             animationitem = animator.GetComponent<AnimationItem>();
+        }
         animationitem.EndState(ID);
     }
 

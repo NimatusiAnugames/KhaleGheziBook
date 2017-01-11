@@ -21,31 +21,31 @@ public class Plan2Part1  :  MapBase
     private float zoomFrom;
 
     //Characters
-    public ShahreFarang ShahreFarangDevice;
-    public Mahoor MahoorChar;
-    public Nava NavaChar;
+    public AnimationItem ShahreFarangDevice;
+    public AnimationItem MahoorChar;
+    public AnimationItem NavaChar;
 
     //Amoo
-    public Amoo AmooChar;
+    public AnimationItem AmooChar;
     private float speechAmooTime = 5;
 
     //Asal
-    public Asal AsalChar;
+    public AnimationItem AsalChar;
     public Transform AsalPlace;
     private Vector3 asalfrom;
 
     //Firooz
-    public Firooz FiroozChar;
+    public AnimationItem FiroozChar;
     public Transform FiroozPlace;
     private Vector3 firoozfrom;
 
     //Navid
-    public Navid NavidChar;
+    public AnimationItem NavidChar;
     public Transform NavidPlace;
     private Vector3 navidfrom;
 
     //Parsa
-    public Parsa ParsaChar;
+    public AnimationItem ParsaChar;
     public Transform ParsaPlace;
     private Vector3 parsafrom;
 
@@ -69,9 +69,6 @@ public class Plan2Part1  :  MapBase
                 SetSpeechAmoo();
             }
         });
-
-        //Mahoor
-        
 
         currentState = InitState;
     }
@@ -110,10 +107,14 @@ public class Plan2Part1  :  MapBase
     private void InitAction()
     {
         //Characters
-        ShahreFarangDevice.SetAnimation(AnimationItem.IdleClip);
-        AmooChar.SetAnimation(AnimationItem.IdleClip);
-        MahoorChar.SetAnimation(AnimationItem.IdleClip);
-        NavaChar.SetAnimation(AnimationItem.IdleClip);
+        ShahreFarangDevice.SetAnimation(AnimConsts.ShahrFarang_IdleClip);
+        AmooChar.SetAnimation(AnimConsts.Amoo_IdleClip);
+        MahoorChar.SetAnimation(AnimConsts.MahoorChar_IdleClip);
+        NavaChar.SetAnimation(AnimConsts.NavaChar_IdleClip);
+        AsalChar.SetAnimation(AnimConsts.Asal_DavidanClip);
+        NavidChar.SetAnimation(AnimConsts.Navid_DavidanClip);
+        FiroozChar.SetAnimation(AnimConsts.Firooz_DavidanClip);
+        ParsaChar.SetAnimation(AnimConsts.Parsa_DavidanClip);
         asalfrom = AsalPlace.position + new Vector3(8, 0, 0);
         AsalChar.transform.position = asalfrom;
         firoozfrom = FiroozPlace.position + new Vector3(8, 0, 0);
@@ -141,14 +142,14 @@ public class Plan2Part1  :  MapBase
     {
         //Asal
         LerpItem(AsalChar.transform, asalfrom, AsalPlace.position, ref frame2, AsalChar.MoveSpeed,
-            new System.Action(() => AsalChar.SetState(Asal.IdleState)));
+            new System.Action(() => AsalChar.SetState(AnimConsts.Asal_Idle)));
 
         //Firooz
         LerpItem(FiroozChar.transform, firoozfrom, FiroozPlace.position, ref frame3, FiroozChar.MoveSpeed,
             new System.Action(() =>
             {
                 Debug.Log("Amoo Speech");
-                FiroozChar.SetState(Firooz.IdleState);
+                FiroozChar.SetState(AnimConsts.Firooz_Idle);
                 frame6 = speechAmooTime;
                 SetSpeechAmoo();
                 currentState = AmooSpeech;
@@ -156,11 +157,11 @@ public class Plan2Part1  :  MapBase
 
         //Navid
         LerpItem(NavidChar.transform, navidfrom, NavidPlace.position, ref frame4, NavidChar.MoveSpeed,
-            new System.Action(() => NavidChar.SetState(Navid.IdleState)));
+            new System.Action(() => NavidChar.SetState(AnimConsts.Navid_Idle)));
 
         //Parsa
         LerpItem(ParsaChar.transform, parsafrom, ParsaPlace.position, ref frame5, ParsaChar.MoveSpeed,
-            new System.Action(() => ParsaChar.SetState(Parsa.IdleState)));
+            new System.Action(() => ParsaChar.SetState(AnimConsts.Parsa_Idle)));
     }
     private void AmooSpeechAction()
     {
@@ -169,12 +170,12 @@ public class Plan2Part1  :  MapBase
         {
             Debug.Log("Done State");
             currentState = DoneState;
-            AmooChar.SetState(Amoo.IdleState);
+            AmooChar.SetState(AnimConsts.Amoo_Idle);
         }
     }
     private void SetSpeechAmoo()
     {
-        int state = (Random.Range(0, 2) == 0 ? Amoo.Speech1 : Amoo.Speech2);
+        int state = (Random.Range(0, 2) == 0 ? AnimConsts.Amoo_Harf_Zadan : AnimConsts.Amoo_Harf_Zadan2);
         AmooChar.SetState(state);
     }
 
@@ -196,10 +197,9 @@ public class Plan2Part1  :  MapBase
     {
         if (currentState == DoneState)
         {
-            if (!ShahreFarangDevice.IsInterctiveMode)
+            if (ShahreFarangDevice.CurrentState == AnimConsts.ShahrFarang_Idle)
             {
                 Debug.Log("Shahre farang interactive");
-                ShahreFarangDevice.IsInterctiveMode = true;
             }
         }
     }
@@ -207,11 +207,10 @@ public class Plan2Part1  :  MapBase
     {
         if (currentState == DoneState)
         {
-            if (!MahoorChar.IsInterctiveMode)
+            if (MahoorChar.CurrentState == AnimConsts.MahoorChar_Idle)
             {
                 Debug.Log("Mahoor interactive");
-                MahoorChar.IsInterctiveMode = true;
-                MahoorChar.SetState(Mahoor.TalkState);
+                MahoorChar.SetState(AnimConsts.MahoorChar_Eshare);
             }
         }
     }
@@ -219,11 +218,10 @@ public class Plan2Part1  :  MapBase
     {
         if (currentState == DoneState)
         {
-            if (!NavaChar.IsInterctiveMode)
+            if (NavaChar.CurrentState == AnimConsts.NavaChar_Idle)
             {
                 Debug.Log("Nava interactive");
-                NavaChar.IsInterctiveMode = true;
-                NavaChar.SetState(Nava.TalkState);
+                NavaChar.SetState(AnimConsts.NavaChar_Eshare);
             }
         }
     }
@@ -231,11 +229,10 @@ public class Plan2Part1  :  MapBase
     {
         if (currentState == DoneState)
         {
-            if (!AsalChar.IsInterctiveMode)
+            if (AsalChar.CurrentState == AnimConsts.Asal_Idle)
             {
                 Debug.Log("Asal interactive");
-                AsalChar.IsInterctiveMode = true;
-                AsalChar.SetState(Asal.TalkState);
+                //AsalChar.SetState(AnimConsts);
             }
         }
     }
@@ -243,11 +240,10 @@ public class Plan2Part1  :  MapBase
     {
         if (currentState == DoneState)
         {
-            if (!FiroozChar.IsInterctiveMode)
+            if (FiroozChar.CurrentState == AnimConsts.Firooz_Idle)
             {
                 Debug.Log("Firooz interactive");
-                FiroozChar.IsInterctiveMode = true;
-                FiroozChar.SetState(Firooz.TalkState);
+                //FiroozChar.SetState(Firooz.TalkState);
             }
         }
     }
@@ -255,11 +251,10 @@ public class Plan2Part1  :  MapBase
     {
         if (currentState == DoneState)
         {
-            if (!NavidChar.IsInterctiveMode)
+            if (NavidChar.CurrentState == AnimConsts.Navid_Idle)
             {
                 Debug.Log("Navid interactive");
-                NavidChar.IsInterctiveMode = true;
-                NavidChar.SetState(Navid.TalkState);
+                //NavidChar.SetState(Navid.TalkState);
             }
         }
     }
@@ -267,11 +262,10 @@ public class Plan2Part1  :  MapBase
     {
         if (currentState == DoneState)
         {
-            if (!ParsaChar.IsInterctiveMode)
+            if (ParsaChar.CurrentState == AnimConsts.Parsa_Idle)
             {
                 Debug.Log("Parsa interactive");
-                ParsaChar.IsInterctiveMode = true;
-                ParsaChar.SetState(Parsa.TalkState);
+                //ParsaChar.SetState(Parsa.TalkState);
             }
         }
     }
