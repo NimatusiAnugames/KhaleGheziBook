@@ -7,6 +7,8 @@ using System.Linq;
 //Nvigate between scenes
 public class MapManager : MonoBehaviour
 {
+    public static MapManager Instance = null;
+
     #region List of Scene indices 
     private static int[] Indices =
 {
@@ -29,6 +31,10 @@ public class MapManager : MonoBehaviour
     private Scene curScene;
     private MapBase map;
 
+    void Awake()
+    {
+        Instance = this;
+    }
     void Start()
     {
         //Get current scene and Map class from it

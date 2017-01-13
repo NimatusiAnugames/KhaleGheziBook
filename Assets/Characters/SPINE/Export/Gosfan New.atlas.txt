@@ -1,0 +1,152 @@
+
+Gosfan New.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Cabin-aviz
+  rotate: true
+  xy: 767, 546
+  size: 476, 191
+  orig: 476, 191
+  offset: 0, 0
+  index: -1
+Cabin-back1
+  rotate: false
+  xy: 2, 328
+  size: 415, 694
+  orig: 415, 694
+  offset: 0, 0
+  index: -1
+Cabin-back2
+  rotate: true
+  xy: 2, 2
+  size: 324, 694
+  orig: 324, 694
+  offset: 0, 0
+  index: -1
+Cabin-back3
+  rotate: false
+  xy: 419, 328
+  size: 346, 694
+  orig: 346, 694
+  offset: 0, 0
+  index: -1
+badan
+  rotate: true
+  xy: 767, 287
+  size: 257, 208
+  orig: 257, 208
+  offset: 0, 0
+  index: -1
+eye
+  rotate: true
+  xy: 960, 944
+  size: 78, 42
+  orig: 78, 42
+  offset: 0, 0
+  index: -1
+eye-close
+  rotate: false
+  xy: 810, 44
+  size: 78, 42
+  orig: 78, 42
+  offset: 0, 0
+  index: -1
+eye-tars
+  rotate: true
+  xy: 960, 864
+  size: 78, 42
+  orig: 78, 42
+  offset: 0, 0
+  index: -1
+gosh
+  rotate: true
+  xy: 698, 12
+  size: 74, 110
+  orig: 74, 110
+  offset: 0, 0
+  index: -1
+mardomak
+  rotate: false
+  xy: 698, 315
+  size: 11, 11
+  orig: 11, 11
+  offset: 0, 0
+  index: -1
+pa-aghab
+  rotate: true
+  xy: 890, 66
+  size: 20, 87
+  orig: 20, 87
+  offset: 0, 0
+  index: -1
+pa-jelo
+  rotate: false
+  xy: 960, 777
+  size: 20, 85
+  orig: 20, 85
+  offset: 0, 0
+  index: -1
+sar-normal
+  rotate: false
+  xy: 698, 88
+  size: 144, 197
+  orig: 144, 197
+  offset: 0, 0
+  index: -1
+sar-noshkhar
+  rotate: false
+  xy: 844, 88
+  size: 144, 197
+  orig: 144, 197
+  offset: 0, 0
+  index: -1
+
+Gosfan New2.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Alaf
+  rotate: false
+  xy: 148, 303
+  size: 95, 95
+  orig: 95, 95
+  offset: 0, 0
+  index: -1
+Cabin-front1
+  rotate: false
+  xy: 358, 487
+  size: 344, 523
+  orig: 344, 523
+  offset: 0, 0
+  index: -1
+Cabin-front2
+  rotate: false
+  xy: 704, 458
+  size: 311, 552
+  orig: 311, 552
+  offset: 0, 0
+  index: -1
+Cabin-front3
+  rotate: false
+  xy: 2, 400
+  size: 354, 610
+  orig: 354, 610
+  offset: 0, 0
+  index: -1
+sar-shad
+  rotate: false
+  xy: 2, 201
+  size: 144, 197
+  orig: 144, 197
+  offset: 0, 0
+  index: -1
+sar-tarside
+  rotate: false
+  xy: 2, 2
+  size: 144, 197
+  orig: 144, 197
+  offset: 0, 0
+  index: -1

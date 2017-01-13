@@ -30,11 +30,13 @@ public class CreateAnimationStateId : ScriptableObject
     {
         string[] data = System.IO.File.ReadAllLines("Assets/Scripts/AnimationClasses/AnimConsts.cs");
 
-        GameObject[] objects = Selection.gameObjects;
-        foreach (var item in objects)
-        {
-            CreateCode(item, ref data);
-        }
+        //GameObject[] objects = Selection.gameObjects;
+        //foreach (var item in objects)
+        //{
+        //    CreateCode(item, ref data);
+        //}
+
+        CreateCode(Selection.activeGameObject, ref data);
 
         System.IO.File.WriteAllLines("Assets/Scripts/AnimationClasses/AnimConsts.cs", data);
 
@@ -42,6 +44,9 @@ public class CreateAnimationStateId : ScriptableObject
     }
     private static void CreateCode(GameObject obj, ref string[] data)
     {
+        if (!obj)
+            return;
+
         Animator animator = obj.GetComponent<Animator>();
         if (!animator)
             return;

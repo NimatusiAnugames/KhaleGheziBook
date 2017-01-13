@@ -14,7 +14,7 @@ public class SetOrderLayer : MonoBehaviour
     {
         if (Application.isPlaying)
         {
-            enabled = enabled = false;
+            enabled = false;
             return;
         }
         segments = new List<Transform>();

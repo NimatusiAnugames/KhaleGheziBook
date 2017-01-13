@@ -31,13 +31,13 @@ public class Plan2Part1  :  MapBase
 
     //Asal
     public AnimationItem AsalChar;
-    public Transform AsalPlace;
-    private Vector3 asalfrom;
+    //public Transform AsalPlace;
+    //private Vector3 asalfrom;
 
     //Firooz
     public AnimationItem FiroozChar;
-    public Transform FiroozPlace;
-    private Vector3 firoozfrom;
+    //public Transform FiroozPlace;
+    //private Vector3 firoozfrom;
 
     //Navid
     public AnimationItem NavidChar;
@@ -48,6 +48,10 @@ public class Plan2Part1  :  MapBase
     public AnimationItem ParsaChar;
     public Transform ParsaPlace;
     private Vector3 parsafrom;
+
+    //ShahrFarang zoom in
+    private Vector3 camTo = new Vector3(-1.27f, -0.62f, 0);
+    private float camZoomTo = 0.87f;
 
     //These frames used in lerps
     private float frame1, frame2, frame3, frame4, frame5, frame6;
@@ -102,6 +106,13 @@ public class Plan2Part1  :  MapBase
         #endregion
     }
 
+    public override void FadeIn(System.Action Done = null)
+    {
+        base.FadeIn(Done);
+        CameraChaser.Instance.Target.position = camTo;
+        CameraChaser.Instance.Zoom = camZoomTo;
+    }
+
     #region State Actions
 
     private void InitAction()
@@ -111,17 +122,15 @@ public class Plan2Part1  :  MapBase
         AmooChar.SetAnimation(AnimConsts.Amoo_IdleClip);
         MahoorChar.SetAnimation(AnimConsts.MahoorChar_IdleClip);
         NavaChar.SetAnimation(AnimConsts.NavaChar_IdleClip);
-        AsalChar.SetAnimation(AnimConsts.Asal_DavidanClip);
+        AsalChar.SetAnimation(AnimConsts.Asal_IdleClip);
         NavidChar.SetAnimation(AnimConsts.Navid_DavidanClip);
-        FiroozChar.SetAnimation(AnimConsts.Firooz_DavidanClip);
+        FiroozChar.SetAnimation(AnimConsts.Firooz_IdleClip);
         ParsaChar.SetAnimation(AnimConsts.Parsa_DavidanClip);
-        asalfrom = AsalPlace.position + new Vector3(8, 0, 0);
-        AsalChar.transform.position = asalfrom;
-        firoozfrom = FiroozPlace.position + new Vector3(8, 0, 0);
-        FiroozChar.transform.position = firoozfrom;
+        //asalfrom = AsalChar.transform.position;
+        //firoozfrom = FiroozChar.transform.position;
         navidfrom = NavidPlace.position + new Vector3(8, 0, 0);
         NavidChar.transform.position = navidfrom;
-        parsafrom = ParsaPlace.position + new Vector3(8, 0, 0);
+        parsafrom = ParsaPlace.position - new Vector3(5, 0, 0);
         ParsaChar.transform.position = parsafrom;
 
         Debug.Log("Camera zomming state");
@@ -140,24 +149,31 @@ public class Plan2Part1  :  MapBase
     }
     private void ChildrenCommingAction()
     {
-        //Asal
-        LerpItem(AsalChar.transform, asalfrom, AsalPlace.position, ref frame2, AsalChar.MoveSpeed,
-            new System.Action(() => AsalChar.SetState(AnimConsts.Asal_Idle)));
+        ////Asal
+        //LerpItem(AsalChar.transform, asalfrom, AsalPlace.position, ref frame2, AsalChar.MoveSpeed,
+        //    new System.Action(() => AsalChar.SetState(AnimConsts.Asal_Idle)));
 
-        //Firooz
-        LerpItem(FiroozChar.transform, firoozfrom, FiroozPlace.position, ref frame3, FiroozChar.MoveSpeed,
+        ////Firooz
+        //LerpItem(FiroozChar.transform, firoozfrom, FiroozPlace.position, ref frame3, FiroozChar.MoveSpeed,
+        //    new System.Action(() =>
+        //    {
+        //        Debug.Log("Amoo Speech");
+        //        FiroozChar.SetState(AnimConsts.Firooz_Idle);
+        //        frame6 = speechAmooTime;
+        //        SetSpeechAmoo();
+        //        currentState = AmooSpeech;
+        //    }));
+
+        //Navid
+        LerpItem(NavidChar.transform, navidfrom, NavidPlace.position, ref frame4, NavidChar.MoveSpeed,
             new System.Action(() =>
             {
                 Debug.Log("Amoo Speech");
-                FiroozChar.SetState(AnimConsts.Firooz_Idle);
+                NavidChar.SetState(AnimConsts.Navid_Idle);
                 frame6 = speechAmooTime;
                 SetSpeechAmoo();
                 currentState = AmooSpeech;
             }));
-
-        //Navid
-        LerpItem(NavidChar.transform, navidfrom, NavidPlace.position, ref frame4, NavidChar.MoveSpeed,
-            new System.Action(() => NavidChar.SetState(AnimConsts.Navid_Idle)));
 
         //Parsa
         LerpItem(ParsaChar.transform, parsafrom, ParsaPlace.position, ref frame5, ParsaChar.MoveSpeed,
@@ -200,6 +216,7 @@ public class Plan2Part1  :  MapBase
             if (ShahreFarangDevice.CurrentState == AnimConsts.ShahrFarang_Idle)
             {
                 Debug.Log("Shahre farang interactive");
+                MapManager.Instance.Next();
             }
         }
     }
@@ -232,7 +249,7 @@ public class Plan2Part1  :  MapBase
             if (AsalChar.CurrentState == AnimConsts.Asal_Idle)
             {
                 Debug.Log("Asal interactive");
-                //AsalChar.SetState(AnimConsts);
+                AsalChar.SetState(AnimConsts.Asal_Eshare);
             }
         }
     }
@@ -243,7 +260,7 @@ public class Plan2Part1  :  MapBase
             if (FiroozChar.CurrentState == AnimConsts.Firooz_Idle)
             {
                 Debug.Log("Firooz interactive");
-                //FiroozChar.SetState(Firooz.TalkState);
+                FiroozChar.SetState(AnimConsts.Firooz_Eshare);
             }
         }
     }
@@ -254,7 +271,7 @@ public class Plan2Part1  :  MapBase
             if (NavidChar.CurrentState == AnimConsts.Navid_Idle)
             {
                 Debug.Log("Navid interactive");
-                //NavidChar.SetState(Navid.TalkState);
+                NavidChar.SetState(AnimConsts.Navid_Eshare);
             }
         }
     }
@@ -265,7 +282,7 @@ public class Plan2Part1  :  MapBase
             if (ParsaChar.CurrentState == AnimConsts.Parsa_Idle)
             {
                 Debug.Log("Parsa interactive");
-                //ParsaChar.SetState(Parsa.TalkState);
+                ParsaChar.SetState(AnimConsts.Parsa_Eshare);
             }
         }
     }

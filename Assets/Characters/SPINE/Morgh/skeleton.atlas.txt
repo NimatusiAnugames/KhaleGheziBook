@@ -1,0 +1,90 @@
+
+skeleton.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Badan
+  rotate: false
+  xy: 2, 82
+  size: 432, 424
+  orig: 432, 424
+  offset: 0, 0
+  index: -1
+Bal
+  rotate: false
+  xy: 887, 49
+  size: 114, 107
+  orig: 114, 107
+  offset: 0, 0
+  index: -1
+Cheshm
+  rotate: false
+  xy: 436, 82
+  size: 132, 86
+  orig: 132, 86
+  offset: 0, 0
+  index: -1
+Cheshm-Close
+  rotate: false
+  xy: 570, 82
+  size: 132, 86
+  orig: 132, 86
+  offset: 0, 0
+  index: -1
+Doom
+  rotate: true
+  xy: 777, 158
+  size: 164, 188
+  orig: 164, 188
+  offset: 0, 0
+  index: -1
+Gardan
+  rotate: false
+  xy: 436, 170
+  size: 339, 336
+  orig: 339, 336
+  offset: 0, 0
+  index: -1
+Kakol
+  rotate: false
+  xy: 2, 2
+  size: 142, 78
+  orig: 142, 78
+  offset: 0, 0
+  index: -1
+Mardomak
+  rotate: false
+  xy: 211, 51
+  size: 28, 29
+  orig: 28, 29
+  offset: 0, 0
+  index: -1
+Nok1
+  rotate: false
+  xy: 146, 22
+  size: 63, 58
+  orig: 63, 58
+  offset: 0, 0
+  index: -1
+Nok2
+  rotate: false
+  xy: 704, 110
+  size: 63, 58
+  orig: 63, 58
+  offset: 0, 0
+  index: -1
+Pa
+  rotate: false
+  xy: 769, 53
+  size: 116, 103
+  orig: 116, 103
+  offset: 0, 0
+  index: -1
+Sar
+  rotate: false
+  xy: 777, 324
+  size: 208, 182
+  orig: 208, 182
+  offset: 0, 0
+  index: -1

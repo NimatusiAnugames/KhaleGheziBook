@@ -34,6 +34,9 @@ public class Plan1Part1  :  MapBase
     public Transform NavaPlaceHolder;
     private Vector3 navaFromPos;
 
+    //Parvane
+    public AnimationItem Parvane;
+
     //These frames used in lerps
     private float frame1, frame2, frame3, frame4; 
     #endregion
@@ -228,7 +231,11 @@ public class Plan1Part1  :  MapBase
     }
     public void ParvaneInteractive()
     {
-        Debug.Log("Parvane interactive");
+        if (Parvane.CurrentState == AnimConsts.Parvaneh_Idle)
+        {
+            Debug.Log("Parvane interactive");
+            Parvane.SetState(AnimConsts.Parvaneh_Parvaz);
+        }
     }
 
     #endregion

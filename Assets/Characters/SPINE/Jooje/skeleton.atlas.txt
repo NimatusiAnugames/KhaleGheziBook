@@ -1,0 +1,83 @@
+
+skeleton.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Badan
+  rotate: true
+  xy: 357, 289
+  size: 221, 268
+  orig: 221, 268
+  offset: 0, 0
+  index: -1
+Bal
+  rotate: false
+  xy: 627, 397
+  size: 147, 113
+  orig: 147, 113
+  offset: 0, 0
+  index: -1
+Cheshm
+  rotate: true
+  xy: 2, 2
+  size: 259, 150
+  orig: 259, 150
+  offset: 0, 0
+  index: -1
+Cheshm-Close
+  rotate: true
+  xy: 154, 2
+  size: 259, 150
+  orig: 259, 150
+  offset: 0, 0
+  index: -1
+Kakol
+  rotate: true
+  xy: 306, 16
+  size: 118, 73
+  orig: 118, 73
+  offset: 0, 0
+  index: -1
+Mardomak
+  rotate: false
+  xy: 412, 232
+  size: 55, 55
+  orig: 55, 55
+  offset: 0, 0
+  index: -1
+Nok1
+  rotate: true
+  xy: 903, 385
+  size: 125, 104
+  orig: 125, 104
+  offset: 0, 0
+  index: -1
+Nok2
+  rotate: true
+  xy: 306, 136
+  size: 125, 104
+  orig: 125, 104
+  offset: 0, 0
+  index: -1
+Pa
+  rotate: true
+  xy: 776, 398
+  size: 112, 125
+  orig: 112, 125
+  offset: 0, 0
+  index: -1
+Sagh
+  rotate: false
+  xy: 627, 298
+  size: 139, 97
+  orig: 139, 97
+  offset: 0, 0
+  index: -1
+Sar
+  rotate: false
+  xy: 2, 263
+  size: 353, 247
+  orig: 353, 247
+  offset: 0, 0
+  index: -1

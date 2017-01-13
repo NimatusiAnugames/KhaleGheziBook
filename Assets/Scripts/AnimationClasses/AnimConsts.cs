@@ -2,7 +2,88 @@ using System;
 
 public static class AnimConsts
 {
+    #region GoosfanStates
+    
+
+    public const int Goosfan_idle = 0;
+
+    public const string Goosfan_idleClip = "idle";
+
+    public const int Goosfan_Cabin = 1;
+
+    public const string Goosfan_CabinClip = "Cabin";
+
+    #endregion
+
+    #region JoojeStates
+    
+
+    public const int Jooje_Idle = 0;
+
+    public const string Jooje_IdleClip = "Idle";
+
+    public const int Jooje_Click = 1;
+
+    public const string Jooje_ClickClip = "Click";
+
+    public const int Jooje_Davidan2 = 2;
+
+    public const string Jooje_Davidan2Clip = "Davidan2";
+
+    #endregion
+
+    #region MorghStates
+    
+
+    public const int Morgh_Idle = 0;
+
+    public const string Morgh_IdleClip = "Idle";
+
+    public const int Morgh_Click = 1;
+
+    public const string Morgh_ClickClip = "Click";
+
+    public const int Morgh_Doon_Khordan = 2;
+
+    public const string Morgh_Doon_KhordanClip = "Doon_Khordan";
+
+    public const int Morgh_Rah_Raftan = 3;
+
+    public const string Morgh_Rah_RaftanClip = "Rah_Raftan";
+
+    #endregion
+
+    #region KhoroosStates
+    
+
+    public const int Khoroos_Idle = 0;
+
+    public const string Khoroos_IdleClip = "Idle";
+
+    public const int Khoroos_Ghogholi = 1;
+
+    public const string Khoroos_GhogholiClip = "Ghogholi";
+
+    #endregion
+
+    #region AsiabBadiStates
+    
+
+    public const int AsiabBadi_Idle = 0;
+
+    public const string AsiabBadi_IdleClip = "Idle";
+
+    public const int AsiabBadi_Click = 1;
+
+    public const string AsiabBadi_ClickClip = "Click";
+
+    #endregion
+
     #region ParsaStates
+
+    public const int Parsa_Eshare = 2;
+
+    public const string Parsa_EshareClip = "Eshare";
     
 
     public const int Parsa_Idle = 0;
@@ -16,6 +97,10 @@ public static class AnimConsts
     #endregion
 
     #region FiroozStates
+
+    public const int Firooz_Eshare = 2;
+
+    public const string Firooz_EshareClip = "Eshare";
     
 
     public const int Firooz_Idle = 0;
@@ -29,6 +114,10 @@ public static class AnimConsts
     #endregion
 
     #region AsalStates
+
+    public const int Asal_Eshare = 2;
+
+    public const string Asal_EshareClip = "Eshare";
     
 
     public const int Asal_Idle = 0;
@@ -42,6 +131,10 @@ public static class AnimConsts
     #endregion
 
     #region NavidStates
+
+    public const int Navid_Eshare = 2;
+
+    public const string Navid_EshareClip = "Eshare";
 
     public const int Navid_Idle = 0;
 
@@ -113,6 +206,14 @@ public static class AnimConsts
     #endregion
 
     #region ParvanehStates
+
+    public const int Parvaneh_Parvaz = 1;
+
+    public const string Parvaneh_ParvazClip = "Parvaz";
+
+    public const int Parvaneh_Parvaz2 = 2;
+
+    public const string Parvaneh_Parvaz2Clip = "Parvaz2";
     
 
     public const int Parvaneh_Idle = 0;

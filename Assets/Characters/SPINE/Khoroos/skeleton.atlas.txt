@@ -1,0 +1,222 @@
+
+skeleton.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Abroo
+  rotate: true
+  xy: 906, 3
+  size: 121, 93
+  orig: 121, 93
+  offset: 0, 0
+  index: -1
+Angosht
+  rotate: false
+  xy: 186, 2
+  size: 274, 130
+  orig: 274, 130
+  offset: 0, 0
+  index: -1
+Aviz
+  rotate: true
+  xy: 186, 134
+  size: 120, 300
+  orig: 120, 300
+  offset: 0, 0
+  index: -1
+Badan
+  rotate: false
+  xy: 2, 256
+  size: 484, 762
+  orig: 484, 762
+  offset: 0, 0
+  index: -1
+Bal2
+  rotate: false
+  xy: 488, 744
+  size: 523, 274
+  orig: 523, 274
+  offset: 0, 0
+  index: -1
+Bal3
+  rotate: false
+  xy: 488, 473
+  size: 512, 269
+  orig: 512, 269
+  offset: 0, 0
+  index: -1
+Dom 2
+  rotate: true
+  xy: 488, 9
+  size: 462, 144
+  orig: 462, 144
+  offset: 0, 0
+  index: -1
+Dom 3
+  rotate: true
+  xy: 634, 21
+  size: 450, 128
+  orig: 450, 128
+  offset: 0, 0
+  index: -1
+Dom 4
+  rotate: true
+  xy: 764, 29
+  size: 442, 140
+  orig: 442, 140
+  offset: 0, 0
+  index: -1
+Moo 1
+  rotate: true
+  xy: 906, 317
+  size: 154, 112
+  orig: 154, 112
+  offset: 0, 0
+  index: -1
+Moo 3
+  rotate: true
+  xy: 906, 126
+  size: 189, 109
+  orig: 189, 109
+  offset: 0, 0
+  index: -1
+Pa
+  rotate: false
+  xy: 2, 12
+  size: 182, 242
+  orig: 182, 242
+  offset: 0, 0
+  index: -1
+
+skeleton2.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Abroo 1
+  rotate: false
+  xy: 706, 169
+  size: 121, 93
+  orig: 121, 93
+  offset: 0, 0
+  index: -1
+Abroo 2
+  rotate: false
+  xy: 706, 74
+  size: 121, 93
+  orig: 121, 93
+  offset: 0, 0
+  index: -1
+Bal1
+  rotate: false
+  xy: 2, 564
+  size: 538, 439
+  orig: 538, 439
+  offset: 0, 0
+  index: -1
+Cheshm-L
+  rotate: true
+  xy: 646, 420
+  size: 196, 165
+  orig: 196, 165
+  offset: 0, 0
+  index: -1
+Cheshm-L Close
+  rotate: true
+  xy: 838, 585
+  size: 196, 165
+  orig: 196, 165
+  offset: 0, 0
+  index: -1
+Cheshm-R
+  rotate: false
+  xy: 813, 429
+  size: 142, 154
+  orig: 142, 154
+  offset: 0, 0
+  index: -1
+Cheshm-R Close
+  rotate: false
+  xy: 706, 264
+  size: 142, 154
+  orig: 142, 154
+  offset: 0, 0
+  index: -1
+Dom 1
+  rotate: true
+  xy: 608, 19
+  size: 330, 96
+  orig: 330, 96
+  offset: 0, 0
+  index: -1
+Dom 5
+  rotate: false
+  xy: 542, 831
+  size: 348, 172
+  orig: 348, 172
+  offset: 0, 0
+  index: -1
+Dom 6
+  rotate: true
+  xy: 428, 71
+  size: 278, 178
+  orig: 278, 178
+  offset: 0, 0
+  index: -1
+Kafpa
+  rotate: false
+  xy: 2, 338
+  size: 346, 224
+  orig: 346, 224
+  offset: 0, 0
+  index: -1
+Lab
+  rotate: false
+  xy: 2, 42
+  size: 211, 294
+  orig: 211, 294
+  offset: 0, 0
+  index: -1
+Lab 1
+  rotate: true
+  xy: 542, 618
+  size: 211, 294
+  orig: 211, 294
+  offset: 0, 0
+  index: -1
+Lab 2
+  rotate: false
+  xy: 215, 42
+  size: 211, 294
+  orig: 211, 294
+  offset: 0, 0
+  index: -1
+Lab 3
+  rotate: true
+  xy: 350, 351
+  size: 211, 294
+  orig: 211, 294
+  offset: 0, 0
+  index: -1
+Mardomak
+  rotate: false
+  xy: 2, 2
+  size: 43, 38
+  orig: 43, 38
+  offset: 0, 0
+  index: -1
+Moo 2
+  rotate: true
+  xy: 892, 783
+  size: 220, 126
+  orig: 220, 126
+  offset: 0, 0
+  index: -1
+Zaboon
+  rotate: true
+  xy: 850, 306
+  size: 121, 91
+  orig: 121, 91
+  offset: 0, 0
+  index: -1

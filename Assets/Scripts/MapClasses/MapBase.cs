@@ -29,7 +29,7 @@ public class MapBase : MonoBehaviour
     private bool fadeIn;
     private System.Action FadeInDone;
 
-    public void FadeIn(System.Action Done = null)
+    public virtual void FadeIn(System.Action Done = null)
     {
         InputManager.Instance.NoAllowInput = true;
         inNavigateMode = true;
@@ -39,7 +39,7 @@ public class MapBase : MonoBehaviour
         blackImage.gameObject.SetActive(true);
         blackImage.color = new Color(0, 0, 0, 0);
     }
-    public void FadeOut()
+    public virtual void FadeOut()
     {
         InputManager.Instance.NoAllowInput = true;
         inNavigateMode = true;

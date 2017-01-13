@@ -6,6 +6,7 @@ using System.Collections.Generic;
 public class MapLayerInfo
 {
     public Transform Layer;
+    public float ScrollFactor = 1;
     public float ZoomFactor = 1;
     [System.NonSerialized]
     public Vector3 Position;
@@ -108,12 +109,12 @@ public class CameraChaser : MonoBehaviour
         {
             MapLayerInfo info = Backs[i];
             factor += ScrollFactor;//ScrollFactor * (i + 1);
-            TranslateLayer(info, factor, fPos - pos);
+            TranslateLayer(info, factor * info.ScrollFactor, fPos - pos);
             info.Guid.position = transform.position;
         }
         if (Background.Layer)
         {
-            factor = 0.95f; //+= ScrollFactor * 2;
+            factor = 0.95f * Background.ScrollFactor; //+= ScrollFactor * 2;
             TranslateLayer(Background, factor, fPos - pos);
             Background.Guid.position = transform.position;
         }
@@ -122,7 +123,7 @@ public class CameraChaser : MonoBehaviour
         {
             MapLayerInfo info = Fores[i];
             factor -= ScrollFactor;//ScrollFactor * (i + 1) * -1;
-            TranslateLayer(info, factor, fPos - pos);
+            TranslateLayer(info, factor * info.ScrollFactor, fPos - pos);
             info.Guid.position = transform.position;
         }
         #endregion
