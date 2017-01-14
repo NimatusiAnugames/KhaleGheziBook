@@ -1,0 +1,622 @@
+fileFormatVersion: 2
+guid: 13db71d45e778a1499d744e45be49b5c
+timeCreated: 1484386071
+licenseType: Pro
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: abshar_00001
+    21300002: abshar_00002
+    21300004: abshar_00003
+    21300006: abshar_00004
+    21300008: abshar_00005
+    21300010: abshar_00006
+    21300012: abshar_00007
+    21300014: abshar_00008
+    21300016: abshar_00009
+    21300018: abshar_00010
+    21300020: abshar_00011
+    21300022: abshar_00012
+    21300024: abshar_00013
+    21300026: abshar_00014
+    21300028: abshar_00015
+    21300030: abshar_00016
+    21300032: abshar_00017
+    21300034: abshar_00018
+    21300036: abshar_00019
+    21300038: abshar_00020
+    21300040: abshar_00021
+    21300042: abshar_00022
+    21300044: abshar_00023
+    21300046: abshar_00024
+    21300048: abshar_00025
+    21300050: abshar_00026
+    21300052: abshar_00027
+    21300054: abshar_00028
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: 12
+  maxTextureSize: 512
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: -1
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 5
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: abshar_00001
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 512
+        height: 288
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -120, y: 20}
+        - {x: -122, y: 19}
+        - {x: -124, y: 4}
+        - {x: -124, y: -72}
+        - {x: -62, y: -72}
+        - {x: 34, y: -14}
+        - {x: 34, y: 20}
+    - name: abshar_00002
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 512
+        height: 288
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -124, y: -55}
+        - {x: -120, y: -72}
+        - {x: -106, y: -72}
+        - {x: 34, y: -14}
+        - {x: 34, y: 11}
+        - {x: 33, y: 20}
+        - {x: -88, y: 20}
+        - {x: -120, y: 18}
+        - {x: -124, y: 4}
+    - name: abshar_00003
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 0
+        width: 512
+        height: 288
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 34, y: 4}
+        - {x: 31, y: 19}
+        - {x: -80, y: 19}
+        - {x: -107, y: 18}
+        - {x: -124, y: 6}
+        - {x: -124, y: -72}
+        - {x: -98, y: -72}
+        - {x: 32, y: -15}
+        - {x: 34, y: -13}
+    - name: abshar_00004
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 0
+        width: 512
+        height: 288
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -110, y: 19}
+        - {x: -124, y: 4}
+        - {x: -124, y: -70}
+        - {x: -123, y: -72}
+        - {x: -92, y: -72}
+        - {x: 34, y: -26}
+        - {x: 34, y: 19}
+    - name: abshar_00005
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 288
+        width: 512
+        height: 288
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -101, y: 19}
+        - {x: -124, y: 8}
+        - {x: -124, y: -72}
+        - {x: -27, y: -72}
+        - {x: 34, y: -20}
+        - {x: 34, y: 19}
+    - name: abshar_00006
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 288
+        width: 512
+        height: 288
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -88, y: 19}
+        - {x: -105, y: 18}
+        - {x: -124, y: 0}
+        - {x: -124, y: -72}
+        - {x: -96, y: -72}
+        - {x: 34, y: -18}
+        - {x: 34, y: 10}
+        - {x: 32, y: 19}
+    - name: abshar_00007
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 288
+        width: 512
+        height: 288
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -123, y: 19}
+        - {x: -123, y: -72}
+        - {x: -16, y: -72}
+        - {x: 34, y: -21}
+        - {x: 34, y: 19}
+    - name: abshar_00008
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 288
+        width: 512
+        height: 288
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -118, y: 19}
+        - {x: -123, y: 0}
+        - {x: -123, y: -50}
+        - {x: -121, y: -70}
+        - {x: -119, y: -72}
+        - {x: -95, y: -72}
+        - {x: 34, y: -20}
+        - {x: 34, y: 19}
+    - name: abshar_00009
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 576
+        width: 512
+        height: 288
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -123, y: -72}
+        - {x: -82, y: -72}
+        - {x: 34, y: -19}
+        - {x: 34, y: 20}
+        - {x: -98, y: 20}
+        - {x: -123, y: 18}
+    - name: abshar_00010
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 576
+        width: 512
+        height: 288
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 30, y: 21}
+        - {x: -83, y: 21}
+        - {x: -123, y: 6}
+        - {x: -123, y: -64}
+        - {x: -119, y: -72}
+        - {x: -103, y: -72}
+        - {x: 33, y: -17}
+        - {x: 34, y: -16}
+        - {x: 34, y: 7}
+    - name: abshar_00011
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 576
+        width: 512
+        height: 288
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 33, y: 13}
+        - {x: 30, y: 21}
+        - {x: -113, y: 21}
+        - {x: -123, y: 6}
+        - {x: -123, y: -69}
+        - {x: -119, y: -72}
+        - {x: -103, y: -72}
+        - {x: 33, y: -18}
+        - {x: 34, y: -16}
+        - {x: 34, y: 2}
+    - name: abshar_00012
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 576
+        width: 512
+        height: 288
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 29, y: 21}
+        - {x: -92, y: 21}
+        - {x: -123, y: 1}
+        - {x: -123, y: -69}
+        - {x: -119, y: -72}
+        - {x: -110, y: -72}
+        - {x: 34, y: -16}
+        - {x: 34, y: 14}
+    - name: abshar_00013
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 864
+        width: 512
+        height: 288
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 32, y: 12}
+        - {x: 28, y: 20}
+        - {x: 13, y: 21}
+        - {x: -37, y: 21}
+        - {x: -78, y: 18}
+        - {x: -103, y: 10}
+        - {x: -113, y: 6}
+        - {x: -123, y: -2}
+        - {x: -123, y: -65}
+        - {x: -121, y: -72}
+        - {x: -110, y: -72}
+        - {x: 34, y: -20}
+        - {x: 34, y: -9}
+        - {x: 33, y: 6}
+    - name: abshar_00014
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 864
+        width: 512
+        height: 288
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -120, y: 3}
+        - {x: -123, y: -15}
+        - {x: -123, y: -58}
+        - {x: -120, y: -67}
+        - {x: -117, y: -72}
+        - {x: -108, y: -72}
+        - {x: 34, y: -22}
+        - {x: 34, y: 21}
+        - {x: -64, y: 21}
+        - {x: -109, y: 17}
+    - name: abshar_00015
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 864
+        width: 512
+        height: 288
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -104, y: 20}
+        - {x: -124, y: -4}
+        - {x: -124, y: -58}
+        - {x: -121, y: -67}
+        - {x: -117, y: -72}
+        - {x: -97, y: -72}
+        - {x: 34, y: -18}
+        - {x: 34, y: 10}
+        - {x: 32, y: 20}
+    - name: abshar_00016
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 864
+        width: 512
+        height: 288
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -69, y: 20}
+        - {x: -98, y: 18}
+        - {x: -124, y: 7}
+        - {x: -124, y: -72}
+        - {x: -102, y: -72}
+        - {x: 34, y: -17}
+        - {x: 34, y: 20}
+    - name: abshar_00017
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1152
+        width: 512
+        height: 288
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -124, y: -72}
+        - {x: -59, y: -72}
+        - {x: 34, y: -37}
+        - {x: 34, y: 16}
+        - {x: 32, y: 20}
+        - {x: -72, y: 20}
+        - {x: -107, y: 19}
+        - {x: -124, y: -7}
+    - name: abshar_00018
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 1152
+        width: 512
+        height: 288
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 34, y: 4}
+        - {x: 31, y: 20}
+        - {x: -109, y: 20}
+        - {x: -124, y: -2}
+        - {x: -124, y: -65}
+        - {x: -119, y: -72}
+        - {x: -113, y: -72}
+        - {x: -112, y: -71}
+        - {x: 12, y: -24}
+        - {x: 34, y: -15}
+    - name: abshar_00019
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 1152
+        width: 512
+        height: 288
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -124, y: 19}
+        - {x: -124, y: -72}
+        - {x: -80, y: -72}
+        - {x: 34, y: -20}
+        - {x: 34, y: 19}
+    - name: abshar_00020
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 1152
+        width: 512
+        height: 288
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -122, y: 19}
+        - {x: -124, y: 6}
+        - {x: -124, y: -72}
+        - {x: -45, y: -72}
+        - {x: 34, y: -16}
+        - {x: 34, y: 19}
+    - name: abshar_00021
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1440
+        width: 512
+        height: 288
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -124, y: -72}
+        - {x: -41, y: -72}
+        - {x: 34, y: -53}
+        - {x: 34, y: 19}
+        - {x: -86, y: 19}
+        - {x: -106, y: 18}
+        - {x: -124, y: 12}
+    - name: abshar_00022
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 1440
+        width: 512
+        height: 288
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -124, y: -8}
+        - {x: -124, y: -72}
+        - {x: 10, y: -72}
+        - {x: 34, y: -26}
+        - {x: 34, y: 19}
+        - {x: -102, y: 19}
+        - {x: -112, y: 15}
+    - name: abshar_00023
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 1440
+        width: 512
+        height: 288
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -82, y: 19}
+        - {x: -108, y: 18}
+        - {x: -118, y: 4}
+        - {x: -124, y: -17}
+        - {x: -124, y: -42}
+        - {x: -119, y: -69}
+        - {x: -118, y: -72}
+        - {x: -110, y: -72}
+        - {x: 34, y: -30}
+        - {x: 34, y: 14}
+        - {x: 32, y: 19}
+    - name: abshar_00024
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 1440
+        width: 512
+        height: 288
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 28, y: 19}
+        - {x: -102, y: 19}
+        - {x: -124, y: -3}
+        - {x: -124, y: -42}
+        - {x: -121, y: -70}
+        - {x: -119, y: -72}
+        - {x: -92, y: -72}
+        - {x: 34, y: -20}
+        - {x: 34, y: 9}
+        - {x: 33, y: 13}
+    - name: abshar_00025
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1728
+        width: 512
+        height: 288
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 34, y: 19}
+        - {x: -106, y: 19}
+        - {x: -117, y: 6}
+        - {x: -124, y: -6}
+        - {x: -124, y: -40}
+        - {x: -123, y: -71}
+        - {x: -121, y: -72}
+        - {x: -112, y: -72}
+        - {x: -112, y: -60}
+        - {x: 34, y: -18}
+    - name: abshar_00026
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 1728
+        width: 512
+        height: 288
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -95, y: 19}
+        - {x: -123, y: 5}
+        - {x: -123, y: -67}
+        - {x: -122, y: -72}
+        - {x: -113, y: -72}
+        - {x: -112, y: -71}
+        - {x: 34, y: -21}
+        - {x: 34, y: 16}
+        - {x: 32, y: 19}
+    - name: abshar_00027
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 1728
+        width: 512
+        height: 288
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -123, y: 19}
+        - {x: -123, y: -72}
+        - {x: -58, y: -72}
+        - {x: 34, y: -48}
+        - {x: 34, y: 19}
+    - name: abshar_00028
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 1728
+        width: 512
+        height: 288
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 30, y: 19}
+        - {x: -85, y: 19}
+        - {x: -123, y: 3}
+        - {x: -123, y: -49}
+        - {x: -121, y: -68}
+        - {x: -117, y: -72}
+        - {x: -111, y: -72}
+        - {x: 34, y: -21}
+        - {x: 34, y: 17}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
